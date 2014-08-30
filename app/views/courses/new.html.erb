@@ -1,0 +1,12 @@
+<% if current_user.try(:admin?) %>
+
+<h1>New course</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', courses_path %>
+<% else %>
+
+<h1> no no </h1>
+<% end %>
+

@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 # Gems added
 gem 'devise'
+
+gem 'rails_admin'
