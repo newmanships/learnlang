@@ -44,3 +44,5 @@ gem 'devise'
 gem 'rails_admin'
 # for image uploads
 gem 'carrierwave'
+
+gem 'cancancan', '~> 1.9'

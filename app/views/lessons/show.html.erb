@@ -15,6 +15,15 @@
   <%= image_tag(@lesson.image_url, :width => 600) if @lesson.image.present? %>
 </p>
 
+<h1><p> <%= @lesson.title %></p></h1>
+<% @posts.each do |post| %>
+<% if post.lesson_id == @lesson.id %>
+<p> <%= post.title %></p><p> ^^ post title </p>
+<p> <%= post.body %></p><p> ^^ post body </p>
+
+<% end %>
+<% end %>
+
 <p>
 <h2><%= @lesson.section.title %></h2>
 <h1><%= @lesson.course.title %></h2>
