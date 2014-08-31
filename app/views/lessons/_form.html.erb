@@ -21,13 +21,13 @@
   </div>
   <div class="field">
     <%= f.label :image %><br>
-    <%= f.text_area :image %>
+    <%= f.file_field :image %>
   </div>
   
   <div>
-    <%=  collection_select(:lesson, :title, Course.all, :id, :title, :prompt => 'Please select course') %>
+    
+    <%=  f.collection_select(:course_id, Course.all, :id, :title, :prompt => 'Please select course') %> 
   </div>
-
   <div class="actions">
     <%= f.submit %>
   </div>

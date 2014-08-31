@@ -42,3 +42,5 @@ gem 'spring',        group: :development
 gem 'devise'
 
 gem 'rails_admin'
+# for image uploads
+gem 'carrierwave'

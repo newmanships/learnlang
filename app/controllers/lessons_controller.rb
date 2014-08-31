@@ -24,7 +24,8 @@ class LessonsController < ApplicationController
   # POST /lessons
   # POST /lessons.json
   def create
-    @lesson = @course.lessons.create(lesson_params)
+    @courses = Course.all.map { |a| [a.title, a.id] }
+    @lesson = Lesson.new
 
     respond_to do |format|
       if @lesson.save
