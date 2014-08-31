@@ -24,10 +24,14 @@
     <%= f.file_field :image %>
   </div>
   
-  <div>
-    
+  <div>  
     <%=  f.collection_select(:course_id, Course.all, :id, :title, :prompt => 'Please select course') %> 
   </div>
+
+  <div>
+    <%=  f.collection_select(:section_id, Section.all, :id, :title, :prompt => 'Please select your section') %> 
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>

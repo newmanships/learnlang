@@ -25,6 +25,7 @@ class LessonsController < ApplicationController
   # POST /lessons.json
   def create
     @courses = Course.all.map { |a| [a.title, a.id] }
+    @sections = Section.all.map { |a| [a.title, a.id] }
     @lesson = Lesson.new
 
     respond_to do |format|

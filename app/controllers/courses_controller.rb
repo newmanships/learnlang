@@ -10,6 +10,9 @@ class CoursesController < ApplicationController
   # GET /courses/1
   # GET /courses/1.json
   def show
+    @sections = @course.sections.all
+    @courses = Course.all
+    @lessons = @course.lessons.all
   end
 
   # GET /courses/new

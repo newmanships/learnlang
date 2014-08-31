@@ -10,5 +10,18 @@
   <%= @course.body %>
 </p>
 
+<% @sections.each do |section| %>
+<h1><p> <%= section.title %></p></h1>
+<% @lessons.each do |lesson| %>
+<% if lesson.section_id == section.id %>
+<p> <%= lesson.title %></p>
+<p> <%= lesson.body %></p>
+
+<% end %>
+<% end %>
+<% end %>
+ 
+
 <%= link_to 'Edit', edit_course_path(@course) %> |
-<%= link_to 'Back', courses_path %>
+<%= link_to 'Back', courses_path %> 
+
