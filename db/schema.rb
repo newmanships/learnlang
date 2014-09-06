@@ -11,10 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140831011053) do
+ActiveRecord::Schema.define(version: 20140906071953) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "attempts", force: true do |t|
+    t.integer  "quiz_id"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "correct_answers", force: true do |t|
+    t.integer  "question_id"
+    t.text     "correctAnswerText"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "courses", force: true do |t|
     t.string   "title"
@@ -43,9 +57,33 @@ ActiveRecord::Schema.define(version: 20140831011053) do
     t.datetime "updated_at"
   end
 
+  create_table "questions", force: true do |t|
+    t.integer  "quiz_id"
+    t.text     "question_text"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "questionNum"
+  end
+
+  create_table "quizzes", force: true do |t|
+    t.string   "name"
+    t.integer  "lesson_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "sections", force: true do |t|
     t.string   "title"
     t.integer  "course_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "user_answers", force: true do |t|
+    t.integer  "question_id"
+    t.text     "userAnswerText"
+    t.integer  "attempt_id"
+    t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

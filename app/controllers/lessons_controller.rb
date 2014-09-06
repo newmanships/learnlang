@@ -12,6 +12,7 @@ class LessonsController < ApplicationController
   def show
     @lessons = Lesson.all
     @posts = @lesson.posts.all
+    @quiz = Quiz.where(params[:id])
   end
 
   # GET /lessons/new

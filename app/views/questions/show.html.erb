@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Quiz:</strong>
+  <%= @question.quiz_id %>
+</p>
+
+<p>
+  <strong>Question text:</strong>
+  <%= @question.question_text %>
+</p>
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>
+
+
+<%= form_for(@user_answer) do |f| %>
+  <% if @user_answer.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user_answer.errors.count, "error") %> prohibited this user_answer from being saved:</h2>
+
+      <ul>
+      <% @user_answer.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :question_id %><br><%= params[:id] %>
+    <%= f.hidden_field :question_id, :value => params[:id] %>
+  </div>
+  <div class="field">
+    <%= f.label :userAnswerText %><br>
+    <%= f.text_area :userAnswerText %>
+  </div>
+  <div class="field">
+    <%= hidden_field_tag :attempt_id, 1 %>
+  </div>
+  <div class="field">
+    <%= hidden_field_tag :user_id, current_user.id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

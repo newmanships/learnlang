@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  resources :attempts
+
+  resources :user_answers
+
+  resources :correct_answers
+
+  resources :questions
+
+  resources :quizzes
+
   resources :posts
 
   resources :sections
