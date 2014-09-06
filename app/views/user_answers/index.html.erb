@@ -7,6 +7,7 @@
       <th>Useranswertext</th>
       <th>Attempt</th>
       <th>User</th>
+      <th>Correct</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -18,9 +19,7 @@
         <td><%= user_answer.userAnswerText %></td>
         <td><%= user_answer.attempt_id %></td>
         <td><%= user_answer.user_id %></td>
-        <td><%= link_to 'Show', user_answer %></td>
-        <td><%= link_to 'Edit', edit_user_answer_path(user_answer) %></td>
-        <td><%= link_to 'Destroy', user_answer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= user_answer.correct %></td>
       </tr>
     <% end %>
   </tbody>
@@ -28,4 +27,3 @@
 
 <br>
 
-<%= link_to 'New User answer', new_user_answer_path %>

@@ -25,6 +25,15 @@ class UserAnswersController < ApplicationController
   # POST /user_answers.json
   def create
     @user_answer = UserAnswer.new(user_answer_params)
+    
+     # Check answer
+        @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
+        @user_answer.correct = false
+        @correct.each do |correct1|
+          if correct1.correctAnswerText == @user_answer.userAnswerText
+            @user_answer.correct = true
+          end
+        end
 
     respond_to do |format|
       if @user_answer.save
@@ -33,12 +42,13 @@ class UserAnswersController < ApplicationController
         @questions = Question.where(quiz_id: @quiz_id)
         @numquestions = @questions.count
         
+       
+        
         if @question.questionNum < @numquestions
-          
         @test = @user_answer.question_id.to_f + 1
-        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.' }
+        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
         else
-          redirect_to '/'
+          format.html { redirect_to questions_url }
         end
       else
         format.html { render :new }
@@ -46,7 +56,6 @@ class UserAnswersController < ApplicationController
       end
     end
   end
-
   # PATCH/PUT /user_answers/1
   # PATCH/PUT /user_answers/1.json
   def update
