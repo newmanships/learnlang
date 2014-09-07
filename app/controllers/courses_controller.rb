@@ -12,7 +12,7 @@ class CoursesController < ApplicationController
   def show
     @sections = @course.sections.all
     @courses = Course.all
-    @lessons = @course.lessons.all
+    @lessons = @course.lessons.all.sort_by{|e| e[:id]}
   end
 
   # GET /courses/new

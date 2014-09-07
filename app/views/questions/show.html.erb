@@ -1,14 +1,10 @@
 <p id="notice"><%= notice %></p>
-
-<p>
-  <strong>Quiz:</strong>
-  <%= @question.quiz_id %>
-</p>
-
-<p>
-  <strong>Question text:</strong>
-  <%= @question.question_text %>
-</p>
+<div class="row">
+  <div class="col-xs-12" style="text-align:center;">
+  <strong>Question:</strong>
+<h3> <%= @question.question_text %></h3>
+    
+ 
 
 
 <%= form_for(@user_answer) do |f| %>
@@ -25,11 +21,10 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :question_id %><br><%= params[:id] %>
     <%= f.hidden_field :question_id, :value => params[:id] %>
   </div>
   <div class="field">
-    <%= f.label :userAnswerText %><br>
+    <%= f.label 'Answer' %><br>
     <%= f.text_area :userAnswerText %>
   </div>
   <div class="field">
@@ -39,6 +34,8 @@
     <%= hidden_field_tag :user_id, current_user.id %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Answer!' %>
   </div>
 <% end %>
+     </div>
+</div>

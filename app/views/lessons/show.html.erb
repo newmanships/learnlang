@@ -1,7 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Title:</strong>
+  <strong>Lesson Title:</strong>
   <%= @lesson.title %>
 </p>
 
@@ -11,23 +11,35 @@
 </p>
 
 <p>
-  <strong>Image:</strong>
+  <strong>Image (ie alphabet):</strong>
   <%= image_tag(@lesson.image_url, :width => 600) if @lesson.image.present? %>
 </p>
 
-<h1><p> <%= @lesson.title %></p></h1>
 <% @posts.each do |post| %>
 <% if post.lesson_id == @lesson.id %>
-<p> <%= post.title %></p><p> ^^ post title </p>
+<% if post.alignment == 'left' %>
+<div class="row">
+  <div class="col-xs-6">
+    <p> <%= image_tag(post.image_url, :width => 250) if post.image.present? %></p>
+  </div>
+  <div class="col-xs-6">
+<h3> <%= post.title %></p><p> ^^ post title </h3>
 <p> <%= post.body %></p><p> ^^ post body </p>
-
+  </div>
+</div>
+<% else %>
+   <div class="row">
+   <div class="col-xs-6">
+<h3> <%= post.title %></p><p> ^^ post title </h3>
+<p> <%= post.body %></p><p> ^^ post body </p>
+  </div>
+     <div class="col-xs-6">
+    <p> <%= image_tag(post.image_url, :width => 250) if post.image.present? %></p>
+  </div>
+</div>
 <% end %>
 <% end %>
-
-<p>
-<h2><%= @lesson.section.title %></h2>
-<h1><%= @lesson.course.title %></h2>
-<%= link_to 'Edit', edit_lesson_path(@lesson) %> |
-<%= link_to 'Back', lessons_path %>
+<% end %>
+<br/>
 
 <h1><%= link_to 'Take Quiz', question_path %></h1>

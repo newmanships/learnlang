@@ -32,8 +32,12 @@ class UserAnswersController < ApplicationController
         @correct.each do |correct1|
           if correct1.correctAnswerText == @user_answer.userAnswerText
             @user_answer.correct = true
-          end
+            flash[:notice] = "Answer correct!"
+          
+        else
+            flash[:error] = "Answer incorrect!"
         end
+          end
 
     respond_to do |format|
       if @user_answer.save
@@ -41,14 +45,15 @@ class UserAnswersController < ApplicationController
         @quiz_id = @question.quiz_id
         @questions = Question.where(quiz_id: @quiz_id)
         @numquestions = @questions.count
-        
-       
-        
+        @quizzes = Quiz.where(id: @quiz_id)
+        @lessonId = @quizzes.first.lesson_id
+
         if @question.questionNum < @numquestions
-        @test = @user_answer.question_id.to_f + 1
+          @test = @questions.where('id > ?', @question.id).order(id: :asc).first
+
         format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
         else
-          format.html { redirect_to questions_url }
+          format.html { redirect_to :controller=>'lessons', :id=>@lessonId, :action=>'show' }
         end
       else
         format.html { render :new }

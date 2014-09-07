@@ -1,23 +1,15 @@
 <h1>Homepage</h1>
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Body</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
+<div class="row">
 <% @courses.each do |course| %>
-      <tr>
-        <td><%= course.title %></td>
-        <td><%= course.body %></td>
-        <td><%= link_to 'Show', course %></td>
-      </tr>
-<br>
-    <% end %>
-  </tbody>
-</table>
-    <p><a href="/admin">Admin</a></p>
+<div class='col-xs-4'>Course: <%= course.title %></div>
+<div class='col-xs-4'>Description: <%= course.body %></div>
+<div class='col-xs-4'><%= link_to 'Show', course %></div>
+
+<% end %>
+</div>
+<div>
+  
+  <br/>
+<p><a href="/admin">Admin</a></p>
 <p><a href="/users/sign_up">Sign Up </a></p>
+</div>

@@ -1,21 +1,21 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<h1>
   <strong>Title:</strong>
   <%= @course.title %>
-</p>
-
+</h1>
+<p> View the alphabet:    Practice / Level up</p>
 <p>
   <strong>Body:</strong>
   <%= @course.body %>
 </p>
 
+
 <% @sections.each do |section| %>
-<h1><p> <%= section.title %></p></h1>
+<h1>Section: <%= section.title %></h1>
 <% @lessons.each do |lesson| %>
 <% if lesson.section_id == section.id %>
-<p> <%= lesson.title %><%= link_to 'Lesson', lesson_path %></p>
-<p> <%= lesson.body %></p>
+<p> Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %></p>
 
 <% end %>
 <% end %>
