@@ -1,4 +1,5 @@
 class CorrectAnswersController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_correct_answer, only: [:show, :edit, :update, :destroy]
 
   # GET /correct_answers

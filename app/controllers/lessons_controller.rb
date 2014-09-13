@@ -1,4 +1,5 @@
 class LessonsController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_lesson, only: [:show, :edit, :update, :destroy]
 
   # GET /lessons
@@ -10,7 +11,7 @@ class LessonsController < ApplicationController
   # GET /lessons/1
   # GET /lessons/1.json
   def show
-    @lessons = Lesson.all
+    #@lessons = Lesson.all
     @posts = @lesson.posts.all
     @quiz = Quiz.where(params[:id])
   end

@@ -1,11 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Quiz:</strong>
-  <%= @attempt.quiz_id %>
+  <strong>Has attempted:</strong>
+  <%= @attempt.has_attempted %>
 </p>
 
-<p>
-  <strong>User:</strong>
-  <%= @attempt.user_id %>
-</p>
+<%= link_to 'Edit', edit_attempt_path(@attempt) %> |
+<%= link_to 'Back', attempts_path %>

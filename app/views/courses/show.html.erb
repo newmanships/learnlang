@@ -5,20 +5,21 @@
   <%= @course.title %>
 </h1>
 <p> View the alphabet:    Practice / Level up</p>
-<p>
-  <strong>Body:</strong>
-  <%= @course.body %>
-</p>
+
+<div class="col-xs-12 headers"><h2>Library</h2></div>
 
 
 <% @sections.each do |section| %>
-<h1>Section: <%= section.title %></h1>
+<div class="col-xs-12"><h2>Section: <%= section.title %></h2>
 <% @lessons.each do |lesson| %>
-<% if lesson.section_id == section.id %>
-<p> Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %></p>
+<% if lesson.section_id == section.id %><br>
+Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %>
 
 <% end %>
+  
+ 
 <% end %>
+   </div>
 <% end %>
  
 

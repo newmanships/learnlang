@@ -6,4 +6,5 @@ class User < ActiveRecord::Base
   
   has_many :user_answers, foreign_key: "user_id"
   has_many :attempts, foreign_key: "user_id"
+  has_many :attempts
 end

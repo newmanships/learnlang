@@ -1,4 +1,5 @@
 class UserAnswersController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_user_answer, only: [:show, :edit, :update, :destroy]
 
   # GET /user_answers
@@ -24,20 +25,24 @@ class UserAnswersController < ApplicationController
   # POST /user_answers
   # POST /user_answers.json
   def create
+     
     @user_answer = UserAnswer.new(user_answer_params)
-    
+    count = 0
      # Check answer
+    @user_answer.correct = false
         @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
-        @user_answer.correct = false
+       
         @correct.each do |correct1|
           if correct1.correctAnswerText == @user_answer.userAnswerText
             @user_answer.correct = true
-            flash[:notice] = "Answer correct!"
-          
-        else
-            flash[:error] = "Answer incorrect!"
+          end    
         end
+          if @user_answer.correct == true
+            flash[:notice] = "Answer correct!" + count.to_s
+          else
+            flash[:error] = "Answer incorrect!"         
           end
+     
 
     respond_to do |format|
       if @user_answer.save
@@ -48,13 +53,13 @@ class UserAnswersController < ApplicationController
         @quizzes = Quiz.where(id: @quiz_id)
         @lessonId = @quizzes.first.lesson_id
 
-        if @question.questionNum < @numquestions
-          @test = @questions.where('id > ?', @question.id).order(id: :asc).first
+ #       if @question.questionNum < @numquestions
+ #         @test = @questions.where('id > ?', @question.id).order(id: :asc).first
 
-        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
-        else
-          format.html { redirect_to :controller=>'lessons', :id=>@lessonId, :action=>'show' }
-        end
+#        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
+#        else
+#          format.html { redirect_to :controller=>'questions', :id=>@questions.shuffle.first.id, :action=>'show' }
+#        end
       else
         format.html { render :new }
         format.json { render json: @user_answer.errors, status: :unprocessable_entity }

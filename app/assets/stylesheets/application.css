@@ -75,3 +75,14 @@ a:visited {
 }
 
 .close:hover { background: #00d9ff; }
+
+h1 {margin-top:0px;}
+
+body {
+  font-size:18px;
+  background-image: url('notebook.png');
+}
+
+.headers {
+  background-color: red;
+}

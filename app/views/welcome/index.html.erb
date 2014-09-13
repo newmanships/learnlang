@@ -1,11 +1,14 @@
-<h1>Homepage</h1>
+<div class="container">
 <div class="row">
 <% @courses.each do |course| %>
-<div class='col-xs-4'>Course: <%= course.title %></div>
-<div class='col-xs-4'>Description: <%= course.body %></div>
-<div class='col-xs-4'><%= link_to 'Show', course %></div>
+  <div class='col-xs-4'><h1>Course: <%=link_to course.title %></h1>
+  Description: <%= course.body %>
+  </div>
+  <div class='col-xs-4'></div>
+  <div class='col-xs-4'><%= link_to 'Show', course %></div>
 
 <% end %>
+  </div>
 </div>
 <div>
   

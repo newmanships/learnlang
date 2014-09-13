@@ -1,4 +1,5 @@
 class QuestionsController < ApplicationController
+  before_filter :authenticate_user!
   before_action :set_question, only: [:show, :edit, :update, :destroy]
 
   # GET /questions
@@ -11,6 +12,7 @@ class QuestionsController < ApplicationController
   # GET /questions/1.json
   def show
     @user_answer = UserAnswer.new
+    @questions = Question.all
   end
 
   # GET /questions/new
