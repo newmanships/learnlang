@@ -12,7 +12,7 @@
 <% @sections.each do |section| %>
 <div class="col-xs-12"><h2>Section: <%= section.title %></h2>
 <% @lessons.each do |lesson| %>
-<% if lesson.section_id == section.id %><br>
+<% if lesson.section_id == section.id %><br/>
 Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %>
 
 <% end %>

@@ -1,26 +1,21 @@
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Lesson Title:</strong>
+<div class="col-xs-12 lesson-title">
+  <h1>Lesson Title:
   <%= @lesson.title %>
-</p>
-
-<p>
+  </h1>
   <strong>Body:</strong>
   <%= @lesson.body %>
-</p>
+</div>
 
-<p>
-  <strong>Image (ie alphabet):</strong>
-  <%= image_tag(@lesson.image_url, :width => 600) if @lesson.image.present? %>
-</p>
 
 <% @posts.each do |post| %>
 <% if post.lesson_id == @lesson.id %>
 <% if post.alignment == 'left' %>
 <div class="row">
   <div class="col-xs-6">
-    <p> <%= image_tag(post.image_url, :width => 250) if post.image.present? %></p>
+    <span class="left-column"> <%= image_tag(post.image_url, :width => 250) if post.image.present? %></span>
   </div>
   <div class="col-xs-6">
 <h3> <%= post.title %></p><p> ^^ post title </h3>
@@ -30,8 +25,8 @@
 <% else %>
    <div class="row">
    <div class="col-xs-6">
-<h3> <%= post.title %></p><p> ^^ post title </h3>
-<p> <%= post.body %></p><p> ^^ post body </p>
+<span class="left-column"><h3> <%= post.title %></p><p> ^^ post title </h3>
+     <p> <%= post.body %></p><p> ^^ post body </p></span>
   </div>
      <div class="col-xs-6">
     <p> <%= image_tag(post.image_url, :width => 250) if post.image.present? %></p>
@@ -41,5 +36,7 @@
 <% end %>
 <% end %>
 <br/>
-
-<h1><%= link_to 'Take Quiz', question_path %></h1>
+  
+  <div id="dialog" title="" style="display:none;">
+      <h1><%= link_to 'Take Quiz', question_path %></h1>
+  </div>

@@ -1,3 +1,27 @@
 // Place all the styles related to the Lessons controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  text-align:center;
+  margin:0 auto;
+}
+
+.lesson-title {
+  text-align:center;
+}
+
+.left-column {
+  float:right;
+}
+
+#dialog {
+  background-color:white;
+}
+
+.ui-dialog-titlebar {
+  background-color:white;
+}
+
+ui-dialog button {
+  display:none;
+}

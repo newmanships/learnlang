@@ -28,7 +28,7 @@ class UserAnswersController < ApplicationController
      
     @user_answer = UserAnswer.new(user_answer_params)
     count = 0
-     # Check answer
+    # Check if answer is correct
     @user_answer.correct = false
         @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
        
@@ -38,12 +38,12 @@ class UserAnswersController < ApplicationController
           end    
         end
           if @user_answer.correct == true
-            flash[:notice] = "Answer correct!" + count.to_s
+            flash[:notice] = "Answer correct!"
           else
-            flash[:error] = "Answer incorrect!"         
+            flash[:notice] = "Answer incorrect!"         
           end
      
-
+    #Loop through questions indefinitely
     respond_to do |format|
       if @user_answer.save
         @question = Question.where(id: @user_answer.question_id).first
@@ -53,13 +53,14 @@ class UserAnswersController < ApplicationController
         @quizzes = Quiz.where(id: @quiz_id)
         @lessonId = @quizzes.first.lesson_id
 
- #       if @question.questionNum < @numquestions
- #         @test = @questions.where('id > ?', @question.id).order(id: :asc).first
+        if @question.questionNum < @numquestions
+          @test = @questions.where('id > ?', @question.id).order(id: :asc).first
 
-#        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
-#        else
-#          format.html { redirect_to :controller=>'questions', :id=>@questions.shuffle.first.id, :action=>'show' }
-#        end
+        format.html { redirect_to :controller=>'questions', :id => @test, :action=>'show', notice: 'User answer was successfully created.'}
+        else
+          #format.html { redirect_to :controller=>'questions', :id=>@questions.shuffle.first.id, :action=>'show' }
+          format.html { redirect_to :controller=>'questions', :id=>@questions.first.id, :action=>'show' }
+        end
       else
         format.html { render :new }
         format.json { render json: @user_answer.errors, status: :unprocessable_entity }
