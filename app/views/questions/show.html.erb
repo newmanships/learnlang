@@ -1,12 +1,11 @@
 
 <div id="notice"><%= notice %></div>
 
-<div class="row">
-  <div class="col-xs-12" style="text-align:center;">
-  <strong>Question:</strong>
+
     
-<h3> <%= @question.question_text %></h3>
+
     <%= form_for(@user_answer, html: {class: "elegant-aero"})  do |f| %>
+    <h1> <%= @question.question_text %></h1>
   <% if @user_answer.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user_answer.errors.count, "error") %> prohibited this user_answer from being saved:</h2>
@@ -33,8 +32,6 @@
     <%= hidden_field_tag :user_id, current_user.id %>
   </div>
   <div class="actions">
-    <%= f.submit 'Answer!', class: "elegant-aero button" %>
+    <%= f.submit 'Submit', class: "elegant-aero button" %>
   </div>
 <% end %>
-     </div>
-</div>

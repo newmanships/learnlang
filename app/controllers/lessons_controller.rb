@@ -1,9 +1,9 @@
 class LessonsController < ApplicationController
   before_filter :authenticate_user!
   before_action :set_lesson, only: [:show, :edit, :update, :destroy]
-
   # GET /lessons
   # GET /lessons.json
+    
   def index
     @lessons = Lesson.all
   end
@@ -11,18 +11,21 @@ class LessonsController < ApplicationController
   # GET /lessons/1
   # GET /lessons/1.json
   def show
-    #@lessons = Lesson.all
     @posts = @lesson.posts.all
-    @quiz = Quiz.where(params[:id])
+    if defined? @lesson.quiz.questions.first
+      @quiz = @lesson.quiz.questions.first
+    end
   end
 
   # GET /lessons/new
   def new
     @lesson = Lesson.new
+    @test = 1
   end
 
   # GET /lessons/1/edit
   def edit
+    @test = 1
   end
 
   # POST /lessons
@@ -30,7 +33,7 @@ class LessonsController < ApplicationController
   def create
     @courses = Course.all.map { |a| [a.title, a.id] }
     @sections = Section.all.map { |a| [a.title, a.id] }
-    @lesson = Lesson.new
+    @lesson = Lesson.new(section_params)
 
     respond_to do |format|
       if @lesson.save
@@ -75,6 +78,6 @@ class LessonsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lesson_params
-      params.require(:lesson).permit(:title, :body, :image)
+      params.require(:lesson).permit(:title, :body, :image, :course_id, :section_id)
     end
 end

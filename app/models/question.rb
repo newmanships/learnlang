@@ -1,5 +1,8 @@
 class Question < ActiveRecord::Base
   belongs_to :quiz
+#  belongs_to :quiz, :inverse_of => :question
+  has_many :correct_answers
+  accepts_nested_attributes_for :correct_answers
   
   
       rails_admin do
@@ -29,4 +32,11 @@ class Question < ActiveRecord::Base
          end
       end
     end
+
+    rails_admin do
+      configure :correct_answers do
+        field :correctAnswerText
+    end
+    end
+
 end

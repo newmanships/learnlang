@@ -8,11 +8,15 @@ class Post < ActiveRecord::Base
             Lesson.last.id
         end
       end
-        field :title do
+        field :title
+        field :body
+        field :image
+        field :alignment
+#         field :title do
 #         default_value do
 #           Date.current
 #         end
-        end
+#         end
       end
       edit do
         field :lesson do
@@ -21,6 +25,9 @@ class Post < ActiveRecord::Base
         end
       end
         field :title
+        field :body
+        field :image
+        field :alignment
 #         default_value do
 #           Date.current
 #         end

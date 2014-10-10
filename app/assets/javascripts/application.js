@@ -19,17 +19,21 @@
 // For end of lesson pop up
 $(window).scroll(function () {
         if ($(document).height() <= $(window).scrollTop() + $(window).height()) {
-            $('#dialog').dialog({
-              autoOpen: true,
-              show: {
-                effect: "blind",
-                duration: 1000
-              },
-              hide: {
-                effect: "explode",
-                duration: 1000
-              }
-            });
+//             $('#quizDropDown').dialog({
+//               autoOpen: true,
+//               show: {
+//                 effect: "blind",
+//                 duration: 1000
+//               },
+//               hide: {
+//                 effect: "explode",
+//                 duration: 1000
+//               }
+//             });
+          $('#quizDropDown #quizDashboard').slideToggle({
+      direction: "up"
+    }, 300);
+    $(this).toggleClass('quizClose');
         }
 });
 

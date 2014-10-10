@@ -2,12 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h1 {
-  text-align:center;
+  text-align:left;
   margin:0 auto;
 }
 
 .lesson-title {
-  text-align:center;
+  text-align:left;
+  background-color:white;
+  margin-bottom:10px;
 }
 
 .left-column {
@@ -24,4 +26,41 @@ h1 {
 
 ui-dialog button {
   display:none;
+}
+
+#quizDropDown {
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  width: 50%;
+  padding-bottom:2%;
+  z-index: 100;
+  background-color:white;
+}
+#quizOpen {
+  color: #ececec;
+  cursor: pointer;
+  float: left;
+  font-size: 26px;
+  margin: -2px 0 0 10%;
+  padding: 0 15px 2px;
+  text-decoration: none;
+  width: 63px;
+}
+#quizCTA {
+  background:#414142;
+  width:100%;
+  color: #CCCCCC;
+  text-align:center;
+  font-size: 46px;
+  margin: 0;
+  padding: 30px 0;
+  text-decoration: none;
+}
+
+#quizDropDown #quizDashboard {
+  display: none;
+}
+#quizDropDown h1 {
+  text-align:center;
 }

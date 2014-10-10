@@ -1,25 +1,28 @@
 <p id="notice"><%= notice %></p>
-
+<div class="course-index">
+  <div class="course-header">
 <h1>
-  <strong>Title:</strong>
   <%= @course.title %>
 </h1>
-<p> View the alphabet:    Practice / Level up</p>
-
-<div class="col-xs-12 headers"><h2>Library</h2></div>
+  </div>
+  <div class="view-alphabet">
+    <span> View the alphabet:</span>    <span class="practice">Practice / Level up</span>
+  </div>
+<div class="headers"><h2>Library</h2></div>
 
 
 <% @sections.each do |section| %>
-<div class="col-xs-12"><h2>Section: <%= section.title %></h2>
+<h2><%= section.title %></h2>
 <% @lessons.each do |lesson| %>
-<% if lesson.section_id == section.id %><br/>
-Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %>
-
-<% end %>
+  <% if lesson.section_id == section.id %>
+    <div>
+      Lesson: <%= link_to lesson.title, :controller=>'lessons', :id=>lesson.id, :action=>'show' %>
+    </div>
+  <% end %>
   
  
 <% end %>
-   </div>
 <% end %>
  
 
+</div>

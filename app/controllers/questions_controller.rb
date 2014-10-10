@@ -12,7 +12,7 @@ class QuestionsController < ApplicationController
   # GET /questions/1.json
   def show
     @user_answer = UserAnswer.new
-    #@questions = Question.all
+    @questions = Question.all
   end
 
   # GET /questions/new
