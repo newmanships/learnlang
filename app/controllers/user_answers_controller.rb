@@ -80,6 +80,21 @@ class UserAnswersController < ApplicationController
       end
     end
   end
+  
+  def checkAnswer
+    @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
+       
+        @correct.each do |correct1|
+          if correct1.correctAnswerText == @user_answer.userAnswerText
+            @user_answer.correct = true
+          end    
+        end
+          if @user_answer.correct == true
+            flash[:notice] = "Answer correct!"
+          else
+            flash[:notice] = "Answer incorrect!"         
+          end
+  end
 
   # DELETE /user_answers/1
   # DELETE /user_answers/1.json

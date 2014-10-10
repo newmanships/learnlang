@@ -15,6 +15,7 @@ class LessonsController < ApplicationController
     if defined? @lesson.quiz.questions.first
       @quiz = @lesson.quiz.questions.first
     end
+#     @alphabet = Alphabet.where[:course_id == Course.current]
   end
 
   # GET /lessons/new

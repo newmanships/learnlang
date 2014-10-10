@@ -11,10 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140913192740) do
+ActiveRecord::Schema.define(version: 20141010021611) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "alphabets", force: true do |t|
+    t.string   "title"
+    t.string   "explanation"
+    t.integer  "course_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "alphabets", ["course_id"], name: "index_alphabets_on_course_id", using: :btree
 
   create_table "attempts", force: true do |t|
     t.boolean  "has_attempted"
@@ -77,6 +87,16 @@ ActiveRecord::Schema.define(version: 20140913192740) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "signs", force: true do |t|
+    t.string   "character"
+    t.string   "explanation"
+    t.integer  "alphabet_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "signs", ["alphabet_id"], name: "index_signs_on_alphabet_id", using: :btree
 
   create_table "user_answers", force: true do |t|
     t.integer  "question_id"

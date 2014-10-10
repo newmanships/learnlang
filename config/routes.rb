@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :signs
+
+  resources :alphabets
+
   resources :attempts
 
   resources :user_answers

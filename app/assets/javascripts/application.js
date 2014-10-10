@@ -17,24 +17,35 @@
 //= require_tree .
 
 // For end of lesson pop up
-$(window).scroll(function () {
-        if ($(document).height() <= $(window).scrollTop() + $(window).height()) {
-//             $('#quizDropDown').dialog({
-//               autoOpen: true,
-//               show: {
-//                 effect: "blind",
-//                 duration: 1000
-//               },
-//               hide: {
-//                 effect: "explode",
-//                 duration: 1000
-//               }
-//             });
-          $('#quizDropDown #quizDashboard').slideToggle({
-      direction: "up"
-    }, 300);
-    $(this).toggleClass('quizClose');
-        }
+jQuery(document).ready(function($) {
+var footer = $('#footer'),
+extra = 10; // In case you want to trigger it a bit sooner than exactly at the bottom.
+
+footer.css({ opacity: '0', display: 'block' });
+
+$(window).scroll(function() {
+       
+   var scrolledLength = ( $(window).height() + extra ) + $(window).scrollTop(),
+       documentHeight = $(document).height();
+
+    
+//     console.log( 'Scroll length: ' + scrolledLength + ' Document height: ' + documentHeight )
+       
+        
+   if( scrolledLength >= documentHeight ) {
+       
+       footer
+          .addClass('bottom')
+          .stop().animate({ bottom: '0', opacity: '1' }, 300);
+
+   }
+   else if ( scrolledLength <= documentHeight && footer.hasClass('bottom') ) {           
+        footer
+           .removeClass('bottom')
+           .stop().animate({ bottom: '-100', opacity: '0' }, 300);
+
+   } 
 });
 
+});
 

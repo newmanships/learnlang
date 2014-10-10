@@ -1,4 +1,24 @@
-
+<script type="text/javascript">
+$(document).on("click", 'elegant-aero-button', function() {
+    $.ajax({
+                 url: "<%= checkAnswer_user_answers_path %>", // Route to the Script Controller method
+                type: "GET",
+            dataType: "json",
+                data: { userAnswerText }, // This goes to Controller in params hash, i.e. params[:file_name]
+            complete: function() {},
+             success: function(data, textStatus, xhr) {
+                        // Do something with the response here
+                        editor.setValue(data.file_content) // Show the file contents in our editor.
+                                                           // editor is defined somewhere above 
+                                                           // 'file_content' is the key we use to respond
+                                                           // in the controller function below
+                      },
+               error: function() {
+                        alert("Ajax error!")
+                      }
+    });
+});
+</script>
 <div id="notice"><%= notice %></div>
 
 

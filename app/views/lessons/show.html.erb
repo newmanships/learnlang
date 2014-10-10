@@ -1,6 +1,6 @@
 
 <p id="notice"><%= notice %></p>
-
+ render partial: "alphabets/complete"
 <div class="lesson-title">
   <h1>
     <%= @lesson.title %>
@@ -37,10 +37,7 @@
 <% end %>
 <% end %>
 <br/>
-<div id="quizDropDown">
-  <div id="quizDashboard">
-<!--   <div id="dialog" title="" > -->
-    <h1><%= link_to 'Take Quiz', :action => :show, :controller => :questions, :id => @quiz %></h1>
-  </div>
-  </div>
-  
+
+  <div id="footer">
+  <h1><%= link_to 'Take Quiz', :action => :show, :controller => :questions, :id => @quiz %></h1>
+</div>
