@@ -11,6 +11,7 @@ class Section < ActiveRecord::Base
             Course.last.id
           end
         end
+        field :title
       end
     
     edit do
@@ -22,5 +23,14 @@ class Section < ActiveRecord::Base
       field :title
     end
   end
+  
+     rails_admin do
+       configure :lessons do
+         field :title
+         field :body
+         field :image
+  
+        end
+    end
   
 end

@@ -18,6 +18,8 @@
 
 // For end of lesson pop up
 jQuery(document).ready(function($) {
+  
+  // For 'take quiz' box at bottom of lesson
 var footer = $('#footer'),
 extra = 10; // In case you want to trigger it a bit sooner than exactly at the bottom.
 

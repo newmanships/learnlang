@@ -13,6 +13,10 @@ class QuestionsController < ApplicationController
   def show
     @user_answer = UserAnswer.new
     @questions = Question.all
+    @question = Question.find(params[:id])
+    @quiz_id = @question.quiz_id
+    quiz = Quiz.find(@quiz_id)
+    @lessonId = quiz.lesson
   end
 
   # GET /questions/new

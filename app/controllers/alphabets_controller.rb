@@ -10,7 +10,12 @@ class AlphabetsController < ApplicationController
   # GET /alphabets/1
   # GET /alphabets/1.json
   def show
-    @signs = @alphabet.signs.all
+    @signs = @alphabet.signs.all.reverse
+  end
+  
+  def complete
+#     @signs = @alphabet.signs.all.reverse
+    @alphabet = Alphabet.first
   end
 
   # GET /alphabets/new

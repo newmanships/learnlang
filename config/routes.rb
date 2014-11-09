@@ -5,8 +5,12 @@ Rails.application.routes.draw do
 
   resources :attempts
 
-  resources :user_answers
-
+  resources :user_answers do
+    member do 
+      get 'checkAnswer'
+    end
+  end
+  
   resources :correct_answers
 
   resources :questions

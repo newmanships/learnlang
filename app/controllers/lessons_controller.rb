@@ -12,9 +12,15 @@ class LessonsController < ApplicationController
   # GET /lessons/1.json
   def show
     @posts = @lesson.posts.all
+    @course = @lesson.course
+    lesson = Lesson.find(params[:id])
+    course = Course.find(lesson.course_id)
+    @alphabet = course.alphabet
+    @signs = @alphabet.signs.all.reverse
     if defined? @lesson.quiz.questions.first
       @quiz = @lesson.quiz.questions.first
     end
+#     @signs = @alphabet.signs.all.reverse
 #     @alphabet = Alphabet.where[:course_id == Course.current]
   end
 

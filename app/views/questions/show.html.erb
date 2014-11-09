@@ -1,31 +1,44 @@
 <script type="text/javascript">
-$(document).on("click", 'elegant-aero-button', function() {
-    $.ajax({
-                 url: "<%= checkAnswer_user_answers_path %>", // Route to the Script Controller method
-                type: "GET",
-            dataType: "json",
-                data: { userAnswerText }, // This goes to Controller in params hash, i.e. params[:file_name]
-            complete: function() {},
-             success: function(data, textStatus, xhr) {
-                        // Do something with the response here
-                        editor.setValue(data.file_content) // Show the file contents in our editor.
-                                                           // editor is defined somewhere above 
-                                                           // 'file_content' is the key we use to respond
-                                                           // in the controller function below
-                      },
-               error: function() {
-                        alert("Ajax error!")
-                      }
-    });
+  $(document).ready( function() {
+    var $submit = false;
+    $('form').submit(function() {
+      if ($submit == false) {
+          $submit = true;
+          var valuesToSubmit = $(this).serialize();
+          $.ajax({
+              type: "GET",
+              url: "<%= checkAnswer_user_answer_path %>", //sumbits it to the given url of the form
+              data: valuesToSubmit,
+              dataType: "JSON" // you want a difference between normal and ajax-calls, and json is standard
+          }).success(function(json){
+              //act on result.
+            // remove JSON formatting and quotes
+      //       var result = JSON.stringify(json['result']).replace(/\"/g, "");
+            $('.correct-or-not').append(json['result'][0]);  // if answer is correct or not
+            $('.answer-text').append(json['result'][1]);  // correct answer
+            $('.users-answer').append(json['result'][2]); // user's answer
+            $('.userAnswer').hide();
+            $('.continue').css('display', 'inline-block');
+            $('.button').css('display', 'none');
+
+          });
+          return false; // prevents normal behaviour
+            }
+   
 });
+  
+
+  });
 </script>
 <div id="notice"><%= notice %></div>
-
+<h1 id="lesson-name"><%= @lessonId.title %></h1>
+<div> <%= @lessonId.body %></div>
 
     
-
+    <h2 class="correct-or-not"></h2>
     <%= form_for(@user_answer, html: {class: "elegant-aero"})  do |f| %>
     <h1> <%= @question.question_text %></h1>
+    
   <% if @user_answer.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@user_answer.errors.count, "error") %> prohibited this user_answer from being saved:</h2>
@@ -37,11 +50,12 @@ $(document).on("click", 'elegant-aero-button', function() {
       </ul>
     </div>
   <% end %>
-
+  <h2 class="answer-text"></h2>
+  <h3 class="users-answer"></h3>
   <div class="field">
     <%= f.hidden_field :question_id, :value => params[:id] %>
   </div>
-  <div class="field">
+  <div class="field userAnswer">
     <br>
     <%= f.text_area :userAnswerText, :placeholder => "Transliterate..." %>
   </div>
@@ -52,6 +66,7 @@ $(document).on("click", 'elegant-aero-button', function() {
     <%= hidden_field_tag :user_id, current_user.id %>
   </div>
   <div class="actions">
-    <%= f.submit 'Submit', class: "elegant-aero button" %>
+    <%= f.submit 'Submit', class: "elegant-aero button", remote: true %>
+    <%= f.submit 'Continue', class:"continue " %>
   </div>
 <% end %>

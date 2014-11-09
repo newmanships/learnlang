@@ -11,6 +11,7 @@ class UserAnswersController < ApplicationController
   # GET /user_answers/1
   # GET /user_answers/1.json
   def show
+    
   end
 
   # GET /user_answers/new
@@ -28,20 +29,6 @@ class UserAnswersController < ApplicationController
      
     @user_answer = UserAnswer.new(user_answer_params)
     count = 0
-    # Check if answer is correct
-    @user_answer.correct = false
-        @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
-       
-        @correct.each do |correct1|
-          if correct1.correctAnswerText == @user_answer.userAnswerText
-            @user_answer.correct = true
-          end    
-        end
-          if @user_answer.correct == true
-            flash[:notice] = "Answer correct!"
-          else
-            flash[:notice] = "Answer incorrect!"         
-          end
      
     #Loop through questions indefinitely
     respond_to do |format|
@@ -82,18 +69,25 @@ class UserAnswersController < ApplicationController
   end
   
   def checkAnswer
-    @correct = CorrectAnswer.where(question_id: @user_answer.question_id)
-       
-        @correct.each do |correct1|
-          if correct1.correctAnswerText == @user_answer.userAnswerText
-            @user_answer.correct = true
-          end    
+    a = Array.new
+        # Do something with input parameter and respond as JSON with the output
+    userAnswer = params[:user_answer]['userAnswerText']
+    @correct = CorrectAnswer.where(question_id: params[:user_answer]['question_id'])
+    if (userAnswer == @correct[0]['correctAnswerText'])
+      result = 'correct'
+      a.push(result)
+    else
+      result = 'wrong'
+      a.push(result)
+    end
+    a.push(@correct[0]['correctAnswerText'])
+    a.push(userAnswer)
+        respond_to do |format|
+              format.json {render :json => {:result => a}}
         end
-          if @user_answer.correct == true
-            flash[:notice] = "Answer correct!"
-          else
-            flash[:notice] = "Answer incorrect!"         
-          end
+    
+    return
+     
   end
 
   # DELETE /user_answers/1

@@ -1,0 +1,1565 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>league-gothic/leaguegothic-regular-webfont.svg at master · theleagueof/league-gothic</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="theleagueof/league-gothic" name="twitter:title" /><meta content="league-gothic - A revival of an old classic, Alternate Gothic #1" name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/106473?v=2&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/106473?v=2&amp;s=400" property="og:image" /><meta content="theleagueof/league-gothic" property="og:title" /><meta content="https://github.com/theleagueof/league-gothic" property="og:url" /><meta content="league-gothic - A revival of an old classic, Alternate Gothic #1" property="og:description" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    <link rel="xhr-socket" href="/_sockets">
+    <meta name="pjax-timeout" content="1000">
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="A2C81953:13AE:22F15C83:5431E8EF" name="octolytics-dimension-request_id" /><meta content="1088622" name="octolytics-actor-id" /><meta content="jesse22" name="octolytics-actor-login" /><meta content="90371702de3172f25a2fd0281b7178b323fe5069331bd3917fe7f8907a669045" name="octolytics-actor-hash" />
+    <meta content="Rails, view, blob#show" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="XDCA3Ryyi0hl0K+faGIfCGsOpusEuaPl6m8DQ/PyTUqaX68+6Lx+AaShRrJly3i1SkLKtXm3aMJ38XaPOB5FYg==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-70916fe2323af7654902e8ee69d2ea95486fe946.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-9ae9325bdf8dd21253fde438acbd4e158d45b029.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+    <meta http-equiv="x-pjax-version" content="803b520e0dba6549b7229b38898e389f">
+
+      
+  <meta name="description" content="league-gothic - A revival of an old classic, Alternate Gothic #1">
+  <meta name="go-import" content="github.com/theleagueof/league-gothic git https://github.com/theleagueof/league-gothic.git">
+
+  <meta content="106473" name="octolytics-dimension-user_id" /><meta content="theleagueof" name="octolytics-dimension-user_login" /><meta content="1413661" name="octolytics-dimension-repository_id" /><meta content="theleagueof/league-gothic" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="1413661" name="octolytics-dimension-repository_network_root_id" /><meta content="theleagueof/league-gothic" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/theleagueof/league-gothic/commits/master.atom" rel="alternate" title="Recent Commits to league-gothic:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_in  env-production macintosh vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      <div class="header header-logged-in true" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-invertocat" href="https://github.com/" data-hotkey="g d" aria-label="Homepage" ga-data-click="Header, go to dashboard, icon:logo">
+  <span class="mega-octicon octicon-mark-github"></span>
+</a>
+
+
+      <div class="site-search repo-scope js-site-search" role="search">
+          <form accept-charset="UTF-8" action="/theleagueof/league-gothic/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/theleagueof/league-gothic/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+      </div>
+      <ul class="header-nav left" role="navigation">
+        <li class="header-nav-item explore">
+          <a class="header-nav-link" href="/explore" data-ga-click="Header, go to explore, text:explore">Explore</a>
+        </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://gist.github.com" data-ga-click="Header, go to gist, text:gist">Gist</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="Header, go to blog, text:blog">Blog</a>
+          </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
+        </li>
+      </ul>
+
+    
+<ul class="header-nav user-nav right" id="user-links">
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link name" href="/jesse22" data-ga-click="Header, go to profile, text:username">
+      <img alt="jesse22" class="avatar" data-user="1088622" height="20" src="https://avatars0.githubusercontent.com/u/1088622?v=2&amp;s=40" width="20" />
+      <span class="css-truncate">
+        <span class="css-truncate-target">jesse22</span>
+      </span>
+    </a>
+  </li>
+
+  <li class="header-nav-item dropdown js-menu-container">
+    <a class="header-nav-link js-menu-target tooltipped tooltipped-s" href="#" aria-label="Create new..." data-ga-click="Header, create new, icon:add">
+      <span class="octicon octicon-plus"></span>
+      <span class="dropdown-caret"></span>
+    </a>
+
+    <div class="dropdown-menu-content js-menu-content">
+      
+<ul class="dropdown-menu">
+  <li>
+    <a href="/new"><span class="octicon octicon-repo"></span> New repository</a>
+  </li>
+  <li>
+    <a href="/organizations/new"><span class="octicon octicon-organization"></span> New organization</a>
+  </li>
+
+
+    <li class="dropdown-divider"></li>
+    <li class="dropdown-header">
+      <span title="theleagueof/league-gothic">This repository</span>
+    </li>
+      <li>
+        <a href="/theleagueof/league-gothic/issues/new"><span class="octicon octicon-issue-opened"></span> New issue</a>
+      </li>
+</ul>
+
+    </div>
+  </li>
+
+  <li class="header-nav-item">
+        <a href="/notifications" aria-label="You have no unread notifications" class="header-nav-link notification-indicator tooltipped tooltipped-s" data-ga-click="Header, go to notifications, icon:read" data-hotkey="g n">
+        <span class="mail-status all-read"></span>
+        <span class="octicon octicon-inbox"></span>
+</a>
+  </li>
+
+  <li class="header-nav-item">
+    <a class="header-nav-link tooltipped tooltipped-s" href="/settings/profile" id="account_settings" aria-label="Settings" data-ga-click="Header, go to settings, icon:settings">
+      <span class="octicon octicon-gear"></span>
+    </a>
+  </li>
+
+  <li class="header-nav-item">
+    <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="4f8566ezWXy9l8eyAvZI/evzaOBfkU2oftHmNDR19nV/AYayYzEmc6NvOKTpcsxl2C1e732oxwB/5t0rTLgMSg==" /></div>
+      <button class="header-nav-link sign-out-button tooltipped tooltipped-s" aria-label="Sign out" data-ga-click="Header, sign out, icon:logout">
+        <span class="octicon octicon-sign-out"></span>
+      </button>
+</form>  </li>
+
+</ul>
+
+
+    
+  </div>
+</div>
+
+      
+
+        
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+    <li class="subscription">
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="M5Nu+fpltf5FrSLCknZEAgKuPVtprUQlu1yiJAiDrTrrFRIyqU2ykygJCZo5Yo9+GXKgsyI8R0rFbaEZ2lnpnw==" /></div>  <input id="repository_id" name="repository_id" type="hidden" value="1413661" />
+
+    <div class="select-menu js-menu-container js-select-menu">
+      <a class="social-count js-social-count" href="/theleagueof/league-gothic/watchers">
+        40
+      </a>
+      <a href="/theleagueof/league-gothic/subscription"
+        class="minibutton select-menu-button with-count js-menu-target" role="button" tabindex="0" aria-haspopup="true">
+        <span class="js-select-button">
+          <span class="octicon octicon-eye"></span>
+          Watch
+        </span>
+      </a>
+
+      <div class="select-menu-modal-holder">
+        <div class="select-menu-modal subscription-menu-modal js-menu-content" aria-hidden="true">
+          <div class="select-menu-header">
+            <span class="select-menu-title">Notifications</span>
+            <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+          </div> <!-- /.select-menu-header -->
+
+          <div class="select-menu-list js-navigation-container" role="menu">
+
+            <div class="select-menu-item js-navigation-item selected" role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input checked="checked" id="do_included" name="do" type="radio" value="included" />
+                <h4>Not watching</h4>
+                <span class="description">Be notified when participating or @mentioned.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Watch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_subscribed" name="do" type="radio" value="subscribed" />
+                <h4>Watching</h4>
+                <span class="description">Be notified of all conversations.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-eye"></span>
+                  Unwatch
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+            <div class="select-menu-item js-navigation-item " role="menuitem" tabindex="0">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <div class="select-menu-item-text">
+                <input id="do_ignore" name="do" type="radio" value="ignore" />
+                <h4>Ignoring</h4>
+                <span class="description">Never be notified.</span>
+                <span class="js-select-button-text hidden-select-button-text">
+                  <span class="octicon octicon-mute"></span>
+                  Stop ignoring
+                </span>
+              </div>
+            </div> <!-- /.select-menu-item -->
+
+          </div> <!-- /.select-menu-list -->
+
+        </div> <!-- /.select-menu-modal -->
+      </div> <!-- /.select-menu-modal-holder -->
+    </div> <!-- /.select-menu -->
+
+</form>
+    </li>
+
+  <li>
+    
+  <div class="js-toggler-container js-social-container starring-container ">
+
+    <form accept-charset="UTF-8" action="/theleagueof/league-gothic/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="HP7BpbchYs6LR2ojmi2NqHA7lice1ygRe0NVipEA0c9fc6elRc05c4lUcyJqPwRbedIYXwSpigzvoN9Pkzgi0w==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target star-button"
+        aria-label="Unstar this repository" title="Unstar theleagueof/league-gothic">
+        <span class="octicon octicon-star"></span>
+        Unstar
+      </button>
+        <a class="social-count js-social-count" href="/theleagueof/league-gothic/stargazers">
+          448
+        </a>
+</form>
+    <form accept-charset="UTF-8" action="/theleagueof/league-gothic/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="uqYWxqh8vVhQN9Z5qcE1tp5YIwsnVeFPkswvwtvg8gP+w3r3N9brSlS3ARxxEFfwJ6opF7if+2Q954cXql5Kog==" /></div>
+      <button
+        class="minibutton with-count js-toggler-target star-button"
+        aria-label="Star this repository" title="Star theleagueof/league-gothic">
+        <span class="octicon octicon-star"></span>
+        Star
+      </button>
+        <a class="social-count js-social-count" href="/theleagueof/league-gothic/stargazers">
+          448
+        </a>
+</form>  </div>
+
+  </li>
+
+
+        <li>
+          <a href="/theleagueof/league-gothic/fork" class="minibutton with-count js-toggler-target fork-button tooltipped-n" title="Fork your own copy of theleagueof/league-gothic to your account" aria-label="Fork your own copy of theleagueof/league-gothic to your account" rel="nofollow" data-method="post">
+            <span class="octicon octicon-repo-forked"></span>
+            Fork
+          </a>
+          <a href="/theleagueof/league-gothic/network" class="social-count">63</a>
+        </li>
+
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/theleagueof" class="url fn" itemprop="url" rel="author"><span itemprop="title">theleagueof</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/theleagueof/league-gothic" class="js-current-repository js-repo-home-link">league-gothic</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders" role="navigation" data-issue-count-url="/theleagueof/league-gothic/issues/counts">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/theleagueof/league-gothic" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /theleagueof/league-gothic">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/theleagueof/league-gothic/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /theleagueof/league-gothic/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class="js-issue-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/theleagueof/league-gothic/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g p" data-selected-links="repo_pulls /theleagueof/league-gothic/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class="js-pull-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/theleagueof/league-gothic/pulse/weekly" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /theleagueof/league-gothic/pulse/weekly">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/theleagueof/league-gothic/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /theleagueof/league-gothic/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/theleagueof/league-gothic.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/theleagueof/league-gothic.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="ssh"
+  data-url="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">SSH</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="git@github.com:theleagueof/league-gothic.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="git@github.com:theleagueof/league-gothic.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/theleagueof/league-gothic" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/theleagueof/league-gothic" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>,
+      <a href="#" class="js-clone-selector" data-protocol="ssh">SSH</a>,
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+  <a href="http://mac.github.com" data-url="github-mac://openRepo/https://github.com/theleagueof/league-gothic" class="minibutton sidebar-button js-conduit-rewrite-url" title="Save theleagueof/league-gothic to your computer and use it in GitHub Desktop." aria-label="Save theleagueof/league-gothic to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+
+                <a href="/theleagueof/league-gothic/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of theleagueof/league-gothic as a zip file"
+                   title="Download the contents of theleagueof/league-gothic as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<a href="/theleagueof/league-gothic/blob/e6dce2137410648b2229d5d4717de8c1cd5f9b97/webfonts/leaguegothic-regular-webfont.svg" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:8aeae251f00f7e27ad4579f78e3f6b1b -->
+
+<div class="file-navigation">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/theleagueof/league-gothic/blob/master/webfonts/leaguegothic-regular-webfont.svg"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="button-group right">
+    <a href="/theleagueof/league-gothic/find/master"
+          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button class="js-zeroclipboard minibutton zeroclipboard-button"
+          data-clipboard-text="webfonts/leaguegothic-regular-webfont.svg"
+          aria-label="Copy to clipboard"
+          data-copied-hint="Copied!">
+      <span class="octicon octicon-clippy"></span>
+    </button>
+  </div>
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/theleagueof/league-gothic" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">league-gothic</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/theleagueof/league-gothic/tree/master/webfonts" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">webfonts</span></a></span><span class="separator"> / </span><strong class="final-path">leaguegothic-regular-webfont.svg</strong>
+  </div>
+</div>
+
+
+  <div class="commit commit-loader file-history-tease js-deferred-content" data-url="/theleagueof/league-gothic/contributors/master/webfonts/leaguegothic-regular-webfont.svg">
+    <div class="file-history-tease-header">
+      Fetching contributors&hellip;
+    </div>
+
+    <div class="participation">
+      <p class="loader-loading"><img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" /></p>
+      <p class="loader-error">Cannot retrieve contributors at this time</p>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+          <span class="mode" title="File mode">executable file</span>
+          <span class="meta-divider"></span>
+          <span>223 lines (223 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>49.403 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+          <a href="/theleagueof/league-gothic/raw/master/webfonts/leaguegothic-regular-webfont.svg" class="minibutton " id="raw-url">Raw</a>
+            <a href="/theleagueof/league-gothic/blame/master/webfonts/leaguegothic-regular-webfont.svg" class="minibutton js-update-url-with-hash">Blame</a>
+          <a href="/theleagueof/league-gothic/commits/master/webfonts/leaguegothic-regular-webfont.svg" class="minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+
+          <a class="octicon-button tooltipped tooltipped-nw js-conduit-openfile-check"
+             href="http://mac.github.com"
+             data-url="github-mac://openRepo/https://github.com/theleagueof/league-gothic?branch=master&amp;filepath=webfonts%2Fleaguegothic-regular-webfont.svg"
+             aria-label="Open this file in GitHub for Mac"
+             data-failed-title="Your version of GitHub for Mac is too old to open this file. Try checking for updates.">
+              <span class="octicon octicon-device-desktop"></span>
+          </a>
+
+              <a class="octicon-button tooltipped tooltipped-n js-update-url-with-hash"
+                 aria-label="Clicking this button will fork this project so you can edit the file"
+                 href="/theleagueof/league-gothic/edit/master/webfonts/leaguegothic-regular-webfont.svg"
+                 data-method="post" rel="nofollow"><span class="octicon octicon-pencil"></span></a>
+
+            <a class="octicon-button danger tooltipped tooltipped-s"
+               href="/theleagueof/league-gothic/delete/master/webfonts/leaguegothic-regular-webfont.svg"
+               aria-label="Fork this project and delete file"
+               data-method="post" data-test-id="delete-blob-file" rel="nofollow">
+          <span class="octicon octicon-trashcan"></span>
+        </a>
+      </div><!-- /.actions -->
+    </div>
+    
+  <div class="blob-wrapper data type-xml">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code js-file-line"><span class="cp">&lt;?xml version=&quot;1.0&quot; standalone=&quot;no&quot;?&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code js-file-line"><span class="cp">&lt;!DOCTYPE svg PUBLIC &quot;-//W3C//DTD SVG 1.1//EN&quot; &quot;http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd&quot; &gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code js-file-line"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&quot;http://www.w3.org/2000/svg&quot;</span><span class="nt">&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code js-file-line"><span class="nt">&lt;metadata&gt;&lt;/metadata&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code js-file-line"><span class="nt">&lt;defs&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code js-file-line"><span class="nt">&lt;font</span> <span class="na">id=</span><span class="s">&quot;league_gothicregular&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;724&quot;</span> <span class="nt">&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code js-file-line"><span class="nt">&lt;font-face</span> <span class="na">units-per-em=</span><span class="s">&quot;2048&quot;</span> <span class="na">ascent=</span><span class="s">&quot;1505&quot;</span> <span class="na">descent=</span><span class="s">&quot;-543&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code js-file-line"><span class="nt">&lt;missing-glyph</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;315&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;2048&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;2048&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;2048&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot; &quot;</span>  <span class="na">horiz-adv-x=</span><span class="s">&quot;315&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x09;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;315&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa0;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;315&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;!&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;387&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 1505l55 -1099h129l55 1099h-239zM86 0h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x22;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;532&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 1505l31 -551h153l31 551h-215zM332 1505l30 -551h154l31 551h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;#&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1232&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 438h199l-60 -438h197l59 438h261l-60 -438h197l59 438h191l26 195h-190l37 258h192l27 194h-193l58 420h-197l-57 -420h-260l57 420h-197l-57 -420h-197l-26 -194h196l-37 -258h-198zM471 633l37 258h260l-37 -258h-260z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;$&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;692&quot;</span> <span class="na">d=</span><span class="s">&quot;M37 358q3 -134 61 -227q64 -103 189 -125v-221h123v217q127 14 192 127q53 90 53 242q0 65 -18 127q-36 106 -119 225q-9 13 -32.5 47t-36.5 51q-78 102 -115 166q-58 97 -58 172q0 57 21 111q20 51 63 51q44 1 65 -33t28 -92l192 25q-14 118 -63 186q-62 85 -172 96v125 h-123v-131q-115 -25 -170 -131q-45 -86 -45 -211q0 -66 20 -125q30 -100 117 -227q52 -77 129 -176q42 -62 55 -84q58 -100 58 -174q0 -77 -21 -127q-23 -58 -72 -58q-63 0 -96 58q-30 49 -33 129z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;%&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1001&quot;</span> <span class="na">d=</span><span class="s">&quot;M55 911q0 -48 19 -88q43 -88 141 -88q60 0 90 27q65 56 68 149v437q-3 48 -21 86q-21 40 -52 64t-85 24q-62 0 -92 -27q-68 -59 -68 -147v-437zM158 0h137l547 1505h-131zM178 911v437q-2 10 2 26q12 29 35 29q16 0 21 -8q14 -21 14 -47v-437q0 -55 -35 -55q-42 0 -37 55 zM631 158q0 -50 18 -88q46 -86 142 -86q61 0 90 26q64 55 67 148v436q-3 50 -20 88q-21 40 -52 64t-85 24q-63 0 -93 -27q-67 -58 -67 -149v-436zM754 158v436q-2 11 2 27q4 9 7 14t10 9.5t18 4.5q15 0 20 -8q14 -21 14 -47v-436q0 -13 -4 -29q-12 -29 -30 -29q-16 0 -23 11 q-16 20 -14 47z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x26;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;854&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 315q0 -132 86 -231q87 -100 217 -100t252 139q38 -41 68 -62q74 -55 112 -69q19 -8 29 -8v235q-8 3 -35 23q-19 12 -57 53q45 91 70 207q17 78 22 151l-176 33q-26 -152 -47 -211q-63 93 -148 285q94 124 148 227q97 181 28 371q-62 164 -235 164q-105 0 -160 -52 q-107 -98 -110 -276q0 -226 106 -442q-40 -61 -63.5 -101.5t-51.5 -99t-41.5 -117t-13.5 -119.5zM263 320q-5 64 5 104q15 88 45 133q65 -120 174 -295q-24 -30 -38.5 -45t-37.5 -28t-49 -13q-42 0 -69 43q-25 37 -30 101zM311 1270q16 76 72 76q33 0 49 -23q32 -43 29 -123 q0 -95 -101 -252q-32 79 -41 125q-26 111 -8 197z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&#39;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;309&quot;</span> <span class="na">d=</span><span class="s">&quot;M57 1505l31 -551h154l30 551h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;(&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;561&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 645q0 -198 45 -362q84 -326 247 -580l162 84q-72 103 -129 238q-129 301 -129 620q0 192 41 350q79 311 217 510l-162 84q-81 -127 -147 -280q-145 -337 -145 -664z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;)&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;561&quot;</span> <span class="na">d=</span><span class="s">&quot;M41 -213l162 -84q79 125 145 279q148 344 148 663q0 198 -45 365q-84 313 -248 579l-162 -84q72 -110 129 -239q129 -315 129 -621q0 -190 -41 -348q-83 -316 -217 -510z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;*&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;677&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 1251l172 -34l-115 -138l131 -80l76 152l78 -152l131 80l-115 138l172 34l-43 148l-164 -70l19 176h-154l19 -176l-164 70z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;+&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1060&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 649h370v-346h172v346h371v172h-371v346h-172v-346h-370v-172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;,&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;309&quot;</span> <span class="na">d=</span><span class="s">&quot;M45 0h72l-72 -266h102l113 266v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;-&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;444&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 455h297v194h-297v-194z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;.&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;321&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 0h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;/&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;720&quot;</span> <span class="na">d=</span><span class="s">&quot;M8 -147h168l537 1652h-162z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;0&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM289 309v887q0 34 8 55q17 56 65 56q29 0 46 -17 q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;1&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;475&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1180h147v-1180h221v1505h-133q-17 -38 -49 -78q-81 -86 -186 -106v-141z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;2&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;731&quot;</span> <span class="na">d=</span><span class="s">&quot;M55 0h600v219h-350q129 217 217 422q129 305 129 506q0 174 -61 266q-74 109 -234 109q-166 0 -237 -119q-58 -97 -58 -270v-105h222v105q0 80 14 129q17 55 59 55q44 0 62 -62q12 -42 12 -122q-3 -120 -63 -299q-51 -151 -127 -297q-88 -170 -185 -318v-219z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;3&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M45 1071h217q0 148 14 205q10 51 52 51q48 0 61 -65q8 -39 8 -129v-121q0 -52 -14 -80q-13 -32 -49 -47.5t-105 -20.5v-184h19q65 -3 108 -27q62 -41 62 -155q-2 -39 -2 -129t-8 -127q-14 -64 -62 -64q-21 0 -34.5 11.5t-22.5 41.5q-19 62 -19 203h-217q0 -190 43 -289 q68 -161 250 -161q71 0 119 26q87 48 129 160q33 96 37 172q2 23 2 43q0 149 -27 252.5t-100 161.5l2 2q54 54 80 145t26 252q0 96 -39 176q-72 148 -247 148q-178 0 -244 -160q-39 -97 -39 -291z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;4&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;684&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 328h342v-328h202v328h103v194h-103v983h-221l-323 -983v-194zM213 522l129 471l12 45h13v-516h-154z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;5&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;704&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 438q0 -204 43 -301q66 -153 245 -153q177 0 246 145q43 88 43 248v336q0 93 -37 174q-63 137 -208 137q-24 3 -46 -6q-34 -11 -81 -45v313h344v219h-535v-792h186q0 30 25 69q29 41 61 41q34 0 52 -30.5t18 -79.5v-336q0 -112 -16 -158q-15 -43 -52 -43q-38 0 -53 45 q-14 41 -14 158v59h-221z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;6&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;700&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 309q0 -109 43 -188q72 -137 245 -137q174 0 246 137q43 79 43 188v307q0 115 -37 191q-62 127 -209 127q-47 0 -110 -37v268q0 87 14 125q12 39 53 39q25 0 38.5 -12t19.5 -41q10 -49 10 -205h221v94q0 139 -41 219q-73 138 -248 138t-248 -138q-40 -78 -40 -219 v-856zM287 244v456q2 22 18.5 42t48.5 20q31 0 49.5 -24.5t18.5 -43.5v-450q0 -19 -18.5 -43.5t-49.5 -24.5q-33 0 -50 24t-17 44z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;7&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;589&quot;</span> <span class="na">d=</span><span class="s">&quot;M8 1286h332l-225 -1286h229l221 1284v221h-557v-219z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;8&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;696&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 322q0 -41 13 -105q18 -92 77 -154q75 -79 205 -79t205 79q60 63 78 154q12 59 12 105v176q0 87 -29.5 165.5t-85.5 131.5q50 50 76.5 123t26.5 153v127q0 100 -37 176q-72 148 -246 148q-172 0 -244 -148q-38 -78 -38 -176v-127q0 -80 26 -153t76 -123 q-56 -53 -85.5 -131.5t-29.5 -165.5v-176zM270.5 416q-1.5 129 10.5 194q9 66 67 66t70 -66q10 -72 10 -200q0 -99 -10 -164q-12 -60 -70 -60q-46 0 -61 52q-15 49 -16.5 178zM284.5 1120q1.5 118 14.5 162q12 45 49 45q43 0 55 -51q11 -64 11 -156q0 -108 -11 -172 q-12 -55 -55 -55q-44 0 -53 55q-12 54 -10.5 172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;9&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;700&quot;</span> <span class="na">d=</span><span class="s">&quot;M57 340q0 -139 41 -217q71 -139 248 -139t248 139q41 78 41 217v856q0 108 -43 190q-74 136 -246 136t-246 -136q-43 -82 -43 -190v-293q0 -114 37 -190q62 -127 209 -127q48 0 111 37v-283q0 -81 -13 -125q-14 -39 -55 -39q-25 0 -38 12t-19 41q-10 49 -10 205h-222v-94 zM279 825v437q0 19 18 43t49 24q34 0 51 -23.5t17 -43.5v-443q-2 -22 -19 -41.5t-49 -19.5q-31 0 -49 24t-18 43z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;:&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;362&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 0h215v227h-215v-227zM74 893h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;362&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 0h71l-71 -266h102l113 266v227h-215v-227zM74 893h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x3c;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1058&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 649l911 -475v199l-698 356l698 356v199l-911 -475v-160z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;=&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1058&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 477h911v172h-911v-172zM74 864h911v172h-911v-172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x3e;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1058&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 174l911 475v160l-911 475v-199l698 -356l-698 -356v-199z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;?&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;645&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1260l178 -84q18 54 43 90q41 55 88 55q40 0 59 -37q12 -30 8 -57q-9 -42 -53 -113q-64 -105 -92 -182q-45 -123 -45 -270v-256h190v256q0 51 13 108q21 88 71 172q8 13 21 35.5t18 30.5q29 50 41.5 73.5t25.5 65t13 80.5q0 98 -45 172q-68 111 -221 114 q-126 3 -217 -100q-75 -84 -96 -153zM199 0h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;@&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;872&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 303q0 -42 18 -94.5t57 -99.5q101 -125 299 -125q214 0 320 143l-152 86q-51 -63 -168 -63q-99 0 -151 59q-39 42 -39 94v889q0 49 39 96q54 62 151 62q100 0 154 -62q37 -45 37 -96v-45q-6 12 -27 33q-38 34 -86 34q-77 0 -111 -47t-34 -123v-485q0 -172 145 -172 q28 0 51 10q43 21 62 58l20 -56h164v793q0 43 -18 99t-56 104q-103 127 -301 127q-199 0 -299 -127q-39 -48 -57 -103.5t-18 -99.5v-889zM535 573v455q0 53 47 53q23 0 36 -14t13 -39v-455q0 -53 -49 -53q-47 0 -47 53z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;A&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM307 541l64 475l6 39h12l6 -39l64 -475h-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;B&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;745&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h272q188 9 271 135q71 109 71 291q0 114 -24 184q-48 139 -129 185q77 71 108 137q29 62 29 174q0 216 -102 311q-95 88 -302 88h-194v-1505zM303 219v463q66 0 98 -23q66 -48 66 -208q0 -161 -66 -209q-32 -23 -98 -23zM303 885v401q65 0 98 -22q66 -45 66 -179 q0 -133 -66 -178q-33 -22 -98 -22z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;C&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;708&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v207h-206v-207q0 -34 -9 -55q-18 -55 -75 -55q-27 0 -43 16q-32 37 -35 94v887q4 39 10 55q21 56 68 56q34 0 51 -17q33 -36 33 -94v-207h206v207q-3 95 -36 162 q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;D&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;761&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h174q156 0 243.5 35.5t131.5 120.5q40 80 52.5 215t12.5 381q0 247 -12.5 382.5t-52.5 215.5q-44 85 -131 120t-244 35h-174v-1505zM303 221v1063q63 0 94 -15t47 -65q18 -68 21 -160q2 -72 2 -290q0 -219 -2 -291q-3 -96 -21 -160q-16 -52 -47 -67t-94 -15z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;E&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;628&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h506v227h-285v414h205v242h-205v395h285v227h-506v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;F&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;616&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v655h205v228h-205v395h305v227h-526v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;G&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;737&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309v-18q0 -82 24 -146q26 -66 78 -110q57 -51 158 -51t172 88l26 -72h131v750h-309v-187h88v-272q0 -36 -8 -55q-14 -56 -66 -56q-26 0 -43 17q-30 35 -30 94v905q0 34 8 55q17 56 65 56q29 0 46 -17q28 -35 28 -94v-231h221v231q-3 95 -36 162q-29 67 -89 112 q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;H&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;778&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v655h172v-655h221v1505h-221v-622h-172v622h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;I&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;385&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v1505h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;J&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;423&quot;</span> <span class="na">d=</span><span class="s">&quot;M12 -14q20 -1 39 -1q154 0 230 81q71 77 71 213v1226h-221v-1192q0 -52 -18 -73q-29 -38 -80 -38q-10 0 -21 1v-217z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;K&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;768&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v532l51 123l13 31h6l6 -31l153 -655h216l-230 1010l203 495h-215l-184 -501l-11 -25h-8v526h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;L&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;604&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h514v205h-293v1300h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;M&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;991&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h205v1010h12l8 -64l142 -946h94l141 946l8 64h13v-1010h204v1505h-270l-131 -688l-10 -80h-4l-11 80l-131 688h-270v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;N&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;808&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h203v854h12l18 -70l215 -784h197v1505h-203v-854h-12l-18 70l-215 784h-197v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;O&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM289 309v887q0 34 8 55q17 56 65 56q29 0 46 -17 q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;P&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;720&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v602q162 0 266 98q123 116 123 355q0 240 -123 356q-99 94 -266 94h-221v-1505zM303 827v453q99 0 135 -53q31 -46 31 -180q0 -132 -31 -173q-34 -47 -135 -47z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;Q&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;729&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q55 0 111 18q72 -117 227 -117v189q-58 11 -88 53q24 56 27 66q18 65 18 116v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM289 309v887q0 34 8 55 q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;R&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;739&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v635h59l115 -635h221l-141 729q61 41 92 132.5t31 209.5q0 217 -91 325.5t-286 108.5h-221v-1505zM303 840v446q70 0 105 -31q59 -52 59 -192q0 -139 -59 -191q-36 -32 -105 -32z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;S&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;702&quot;</span> <span class="na">d=</span><span class="s">&quot;M37 422q0 -203 55 -303q74 -135 266 -135q167 0 244 114q64 95 64 264q0 107 -66 236q-41 80 -141 229q-94 137 -119 181q-55 95 -55 161q0 147 75 150q48 0 72 -70q17 -52 17 -147l217 20q0 160 -56 267q-71 133 -246 133h-8q-143 -3 -223 -115q-65 -94 -65 -238 q0 -61 18 -120q34 -117 109 -234q74 -115 139 -207q30 -46 57 -90q58 -104 58 -166q0 -166 -91 -166q-63 0 -86 82q-18 53 -18 174z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;T&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;647&quot;</span> <span class="na">d=</span><span class="s">&quot;M4 1278h209v-1278h221v1278h209v227h-639v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;U&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;749&quot;</span> <span class="na">d=</span><span class="s">&quot;M80 309q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v1196h-221v-1196q0 -34 -9 -55q-14 -55 -65 -55q-27 0 -43 16q-31 36 -31 94v1196h-221v-1196z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;V&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;716&quot;</span> <span class="na">d=</span><span class="s">&quot;M18 1505l230 -1505h221l229 1505h-215l-110 -827l-8 -64h-13l-8 64l-111 827h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;W&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1036&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1505l202 -1505h172l103 713l12 88h8l13 -88l102 -713h172l203 1505h-205l-88 -782l-4 -49h-17l-6 49l-94 782h-160l-94 -782l-6 -49h-16l-5 49l-88 782h-204z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;X&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;737&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 0h217l127 449l5 18h8l4 -18l127 -449h217l-244 791l240 714h-217l-121 -381l-6 -18h-8l-7 18l-120 381h-218l240 -714z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;Y&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;700&quot;</span> <span class="na">d=</span><span class="s">&quot;M14 1505l226 -864v-641h221v641l225 864h-217l-111 -481l-6 -14h-4l-6 14l-111 481h-217z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;Z&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;626&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h586v219h-352l352 1067v219h-536v-219h297l-347 -1048v-238z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;[&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;538&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 -213h399v197h-202v1325h202v196h-399v-1718z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;\&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;792&quot;</span> <span class="na">d=</span><span class="s">&quot;M8 1692l608 -1872h168l-614 1872h-162z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;]&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;538&quot;</span> <span class="na">d=</span><span class="s">&quot;M57 -16v-197h400v1718h-400v-196h203v-1325h-203z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;^&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1101&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 809h199l299 543l299 -543h199l-381 696h-234z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;_&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1210&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 -154v-172h1063v172h-1063z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;`&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M293 1489l162 -184h159l-106 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;a&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;661&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;b&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v74q34 -30 53 -45q61 -45 111 -45q75 0 122 75q37 61 37 144v715q0 81 -37 145q-49 74 -122 74q-31 0 -58 -15q-50 -22 -106 -75v458h-207v-1505zM289 246v628q0 25 19 46.5t42 21.5t39.5 -19.5t16.5 -48.5v-628q0 -29 -16.5 -48.5t-39.5 -19.5 q-24 0 -42.5 19.5t-18.5 48.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;c&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;645&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 315q0 -179 75 -260q65 -71 189 -71q136 0 198 67q68 74 68 254v109h-207v-156q0 -52 -12 -71t-47 -19q-26 0 -39.5 15.5t-16 32t-2.5 42.5v604q0 26 2.5 42.5t16 32t39.5 15.5q35 0 47 -19t12 -71v-135h207v88q0 180 -68 254q-62 68 -198 68q-123 0 -189 -72 q-75 -81 -75 -260v-490z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;d&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 203q0 -85 39 -144q44 -75 120 -75q32 0 60 14q46 21 104 76v-74h207v1505h-207v-458q-34 30 -53 45q-61 45 -111 45q-75 0 -120 -74q-39 -62 -39 -145v-715zM281 246v628q0 29 16 48.5t39 19.5t42 -21.5t19 -46.5v-628q0 -29 -18.5 -48.5t-42.5 -19.5q-23 0 -39 19.5 t-16 48.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;e&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;659&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 279q3 -78 32 -148q66 -147 234 -147q101 0 155 45q55 44 81.5 102t31.5 141v129h-192v-122q0 -34 -9 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-105 -87 -114 -250v-563zM258 684v158 q3 39 10 57q18 57 66 57q29 0 45 -16q29 -36 29 -98v-158h-150z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;f&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;475&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 934h105v-934h207v934h104v186h-104v29v49q0 32 6 62q14 69 59 69q15 0 43 -4q3 -1 9.5 -2t9.5 -2v178l-25 6q-21 8 -72 8q-154 0 -206 -137q-31 -81 -31 -225v-31h-105v-186z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;g&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;700&quot;</span> <span class="na">d=</span><span class="s">&quot;M12 -184q0 -117 92 -168q79 -46 240 -49q146 0 242 61q112 73 112 225q0 130 -94 197q-71 48 -192 63q-68 10 -107 23q-51 13 -51 47q0 25 29 51q6 -2 20 -2h19q96 0 151 43q106 81 115 234v317q0 15 -2 21t-2 22q-2 4 -6 27q43 24 120 24v185q-43 0 -98 -41 q-33 -23 -72 -62q-73 103 -206 103q-99 0 -150 -45q-101 -83 -113 -240v-305q2 -35 17 -92q28 -103 102 -152q-48 -25 -86 -72q-43 -53 -43 -96q0 -116 125 -149q-71 -33 -111 -70q-51 -48 -51 -100zM213 -150q0 55 76 99l106 -21q70 -11 94 -32q17 -17 17 -48 q0 -36 -53 -57q-46 -18 -105 -18q-68 0 -101.5 21t-33.5 56zM262 537v307q-1 8 -1 16q0 18 5 35q12 51 56 51q25 0 38 -16q25 -36 25 -86v-307q0 -31 -6 -52q-16 -49 -57 -49q-23 0 -37 17q-23 26 -23 73v11z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;h&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v883q6 10 18 26q27 27 49 27q50 0 50 -49v-887h206v918q0 81 -37 145q-45 74 -118 74q-27 0 -54 -15q-37 -20 -90 -73q-22 -22 -24 -23v479h-207v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;i&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v1120h-207v-1120zM82 1298h207v207h-207v-207z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;j&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;364&quot;</span> <span class="na">d=</span><span class="s">&quot;M-45 -182v-191q12 -4 20 -6q21 -6 70 -6q157 0 209 135q29 74 29 221v1149h-207v-1147v-47q0 -21 -4 -53q-14 -63 -60 -63q-11 0 -39 4q-3 1 -9 2t-9 2zM76 1298h207v207h-207v-207z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;k&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;641&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v387l26 66l7 16h10l4 -16l102 -453h199l-188 756l149 364h-186l-101 -293l-12 -36h-10v714h-207v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;l&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v1505h-207v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;m&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1021&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v883q6 10 22 26q27 27 56 27q55 0 55 -49v-887h194v883q4 8 23 26q27 27 55 27q56 0 56 -49v-887h194v918q0 81 -37 145q-45 74 -119 74q-24 0 -55 -17q-61 -36 -100 -78q-21 -21 -33 -30q-44 125 -139 125q-26 0 -53 -15q-48 -26 -95 -73q-22 -22 -24 -23v94 h-207v-1120z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;n&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v883q6 10 18 26q27 27 49 27q50 0 50 -49v-887h206v918q0 81 -37 145q-45 74 -118 74q-27 0 -54 -15q-37 -20 -90 -73q-22 -22 -24 -23v94h-207v-1120z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;o&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM258 279v563q-1 8 -1 16q0 23 7 41q15 57 64 57q29 0 45 -16q26 -33 26 -87v-11v-563q1 -8 1 -16 q0 -24 -7 -42q-14 -55 -65 -55q-27 0 -43 16q-27 35 -27 86v11z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;p&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 -385h207v459q34 -30 53 -45q61 -45 111 -45q75 0 122 75q37 61 37 144v715q0 81 -37 145q-49 74 -122 74q-31 0 -58 -15q-50 -22 -106 -75v73h-207v-1505zM289 246v628q0 29 18.5 48.5t42.5 19.5q23 0 39.5 -19.5t16.5 -48.5v-628q0 -29 -16.5 -48.5t-39.5 -19.5 t-42 21.5t-19 46.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;q&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 203q0 -85 39 -144q44 -75 120 -75q32 0 60 14q46 21 104 76v-459h207v1505h-207v-73q-34 30 -53 45q-61 45 -111 45q-75 0 -120 -74q-39 -62 -39 -145v-715zM281 246v628q0 29 16 48.5t39 19.5q24 0 42.5 -19.5t18.5 -48.5v-628q0 -25 -19 -46.5t-42 -21.5t-39 19.5 t-16 48.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;r&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;503&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v778q0 65 45 103q36 34 104 34q34 0 58 -8v230q-94 0 -158 -60q-22 -22 -34.5 -45t-14.5 -37v125h-207v-1120z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;s&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;630&quot;</span> <span class="na">d=</span><span class="s">&quot;M37 326q0 -131 49 -215q74 -127 240 -127q132 0 206 102q58 81 58 205q0 93 -62 194q-33 52 -129 148q-60 56 -90 96q-45 55 -45 105q0 56 12 86q14 45 52 45q41 0 59 -45q8 -27 8 -86h193q0 131 -41 200q-61 103 -214 103h-9q-132 -3 -201 -103q-51 -77 -51 -200 q0 -105 63 -199q35 -52 133 -146q42 -42 64 -66.5t43.5 -62t21.5 -69.5q0 -135 -71 -135q-55 0 -80 63q-17 40 -17 107h-192z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;t&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;501&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 934h105v-574q0 -154 31 -237q52 -139 206 -139q50 0 80 6q5 1 15.5 4t15.5 4v203q-4 -1 -12 -2t-12 -2q-28 -4 -52 -4q-43 0 -57 67q-8 37 -8 117v557h141v186h-141v277h-207v-277h-105v-186z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;u&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 203q0 -83 37 -144q44 -75 118 -75q27 0 56 16q35 19 90 74q18 18 22 20v-94h207v1120h-207v-882q-13 -22 -18 -27q-27 -27 -49 -27q-23 0 -36 10t-13 39v887h-207v-917z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;v&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;602&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 1120l183 -1120h204l183 1120h-201l-68 -649l-8 -72h-16l-8 72l-68 649h-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;w&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;905&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 1120l166 -1120h172l80 535l11 63h8l10 -63l80 -535h172l166 1120h-189l-65 -585l-8 -64h-13l-10 64l-86 585h-123l-86 -585l-10 -64h-12l-9 64l-65 585h-189z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;x&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;618&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 0h201l84 283l6 30h4l6 -30l84 -283h201l-192 578l176 542h-195l-74 -262l-6 -31h-4l-6 31l-74 262h-194l176 -542z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;y&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;634&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1120l190 -1153q0 -34 -8 -61q-18 -65 -68 -103q-21 -16 -55.5 -19t-38.5 1q-10 0 -12 2v-184q50 -4 67 -4h25q114 0 197 100q74 89 90 217l198 1204h-202l-82 -688l-4 -57h-9l-4 57l-82 688h-202z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;z&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;532&quot;</span> <span class="na">d=</span><span class="s">&quot;M12 0h504v188h-285l285 764v168h-459v-188h240l-285 -764v-168z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;{&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;688&quot;</span> <span class="na">d=</span><span class="s">&quot;M61 453q73 -3 107 -62q25 -46 25 -78v-397q0 -116 24 -188t76 -113q50 -39 131.5 -54.5t206.5 -13.5v172q-72 0 -116 7.5t-71 29.5q-55 44 -55 160v397q0 76 -32 129t-95 93q63 39 95 91t32 130v397q0 116 55 160q27 22 71 29.5t116 7.5v172q-125 2 -206.5 -13.5 t-131.5 -54.5q-52 -41 -76 -113t-24 -188v-397q0 -37 -25 -80q-33 -60 -107 -60v-163z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;|&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;356&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 -512h192v2204h-192v-2204z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;}&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;688&quot;</span> <span class="na">d=</span><span class="s">&quot;M57 -281v-172q126 -2 208 13.5t132 54.5q52 41 75.5 113t23.5 188v397q0 34 24 78q34 59 107 62v163q-74 0 -107 60q-24 41 -24 80v397q0 116 -23.5 188t-75.5 113q-50 39 -132 54.5t-208 13.5v-172q72 0 116 -7.5t71 -29.5q55 -44 55 -160v-397q0 -78 32 -130t95 -91 q-63 -40 -95 -93t-32 -129v-397q0 -116 -55 -160q-27 -22 -71 -29.5t-116 -7.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;~&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1280&quot;</span> <span class="na">d=</span><span class="s">&quot;M113 1352l135 -58q14 40 47 90q64 91 154 91q70 0 178 -74q54 -34 83 -50.5t82 -33.5t107 -17q82 0 145 48q119 94 181 262l-135 57q-20 -50 -48 -92q-59 -90 -143 -90q-74 0 -174 71q-6 4 -29 18t-31 19t-29.5 17t-33 16.5t-32.5 12.5t-38 11t-39 6t-44 3 q-89 0 -154 -47q-128 -100 -182 -260z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;624&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 1012h215v227h-71l71 266h-102l-113 -266v-227zM356 1012h215v227h-71l71 266h-102l-113 -266v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;624&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 1012h103l112 266v227h-215v-227h72zM356 1012h103l112 266v227h-215v-227h72z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa1;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;387&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 -385h239l-55 1100h-129zM86 893h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa2;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;636&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 508q0 -300 208 -330v-301h123v303q97 14 144 88.5t47 229.5v108h-189v-155q0 -49 -18 -70t-55 -21q-38 0 -55 27t-17 64v604q0 36 17 63t55 27q37 0 55 -20.5t18 -69.5v-135h189v88q0 155 -47 229q-48 71 -144 86v244h-123v-242q-208 -30 -208 -328v-489z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa3;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;817&quot;</span> <span class="na">d=</span><span class="s">&quot;M4 63l146 -79q10 30 28 51q37 51 86 51q8 0 16.5 -1.5t18.5 -4.5t17 -6t19.5 -9t18 -9t20 -10.5t19.5 -10.5q96 -51 144 -51q102 0 170.5 99t80.5 282l-188 22q-3 -101 -29 -145q-23 -42 -53 -45q-39 3 -63 22q-38 23 -70 37q57 117 57 219q0 72 -24 174h174v137h-211 l-6 25q-24 78 -35.5 119t-23 104.5t-11.5 114.5q0 70 21 113q23 55 69 55q66 0 92 -60q23 -53 23 -137h213q0 177 -66 279q-83 126 -266 123q-152 -3 -231 -123q-64 -98 -64 -250q0 -84 78 -342l6 -21h-147v-137h188q31 -108 31 -174q0 -98 -37 -199q-49 -8 -92 -45 q-73 -67 -119 -168z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa5;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;720&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1505l196 -753h-147v-138h176v-137h-176v-137h176v-340h221v340h176v137h-176v137h176v138h-147l196 753h-217l-110 -481l-7 -14h-4l-6 14l-110 481h-217z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa8;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M272 1305h191v200h-191v-200zM561 1305h191v200h-191v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xa9;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1644&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 752q0 -155 60 -296t166 -247t246 -165.5t296 -59.5q157 0 298 59.5t247 165.5t165.5 246.5t59.5 296.5q0 157 -59.5 297.5t-165.5 246.5t-247 166t-298 60q-155 0 -295.5 -60t-246.5 -166q-107 -107 -166.5 -247t-59.5 -297zM172 752q0 131 51 250t142 210t208 141 t248 50q132 0 251 -50t210 -141t141 -209.5t50 -250.5q0 -131 -50 -248.5t-141 -208.5t-210.5 -142t-250.5 -51t-248 51t-208 142t-142 208.5t-51 248.5zM627 487q0 -52 22 -98q50 -98 170 -98q70 0 109 31q71 60 80 165v125h-138v-125q3 -16 -4 -32q-12 -31 -45 -31 q-18 0 -28 10q-21 18 -21 53v531q0 16 6 31q12 32 43 32q21 0 31 -10q21 -21 18 -53v-125h138v125q-3 52 -25 98q-50 98 -164 98q-71 0 -112 -30q-80 -64 -80 -166v-531z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xad;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;444&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 455h297v194h-297v-194z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xae;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1644&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 752q0 -155 60 -296t166 -247t246 -165.5t296 -59.5q157 0 298 59.5t247 165.5t165.5 246.5t59.5 296.5q0 157 -59.5 297.5t-165.5 246.5t-247 166t-298 60q-155 0 -295.5 -60t-246.5 -166q-107 -107 -166.5 -247t-59.5 -297zM172 752q0 131 51 250t142 210t208 141 t248 50q132 0 251 -50t210 -141t141 -209.5t50 -250.5q0 -131 -50 -248.5t-141 -208.5t-210.5 -142t-250.5 -51t-248 51t-208 142t-142 208.5t-51 248.5zM625 313h145v365h55l95 -365h151l-106 400q56 47 72 95t16 126q0 258 -232 258h-196v-879zM770 805v258h45 q63 0 84 -43q14 -29 14 -88q0 -57 -14 -86q-20 -41 -84 -41h-45z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xaf;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M313 1315h398v162h-398v-162z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xb4;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M410 1305h159l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xb7;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;215&quot;</span> <span class="na">d=</span><span class="s">&quot;M0 649h215v228h-215v-228z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xb8;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M426 -111v-141h63l-40 -133h104l45 133v141h-172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xbf;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;645&quot;</span> <span class="na">d=</span><span class="s">&quot;M41 -106q0 -93 47 -170q69 -114 219 -117q125 -3 219 102q58 65 95 152l-179 84q-12 -46 -43 -88q-40 -58 -88 -58q-41 0 -57 39q-14 28 -10 56q9 41 53 112q64 105 92 182q45 133 45 271v256h-190v-256q0 -53 -13 -107q-23 -97 -69 -172q-8 -15 -23 -38.5t-18 -28.5 q-29 -50 -41.5 -73.5t-25.5 -65t-13 -80.5zM231 893h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc0;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM141 1823l162 -185h160l-107 185h-215zM307 541l64 475l6 39h12l6 -39l64 -475h-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc1;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM293 1638h160l161 185h-215zM307 541l64 475l6 39h12l6 -39l64 -475h-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc2;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM133 1638h189l61 72l63 -72h189l-141 185h-220zM307 541l64 475l6 39h12l6 -39l64 -475h-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc3;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM184 1632q5 3 33 17q46 16 76 16q51 -3 92 -20q43 -19 88 -19q23 0 41 6q42 10 68 33v152q-5 -3 -33 -17q-46 -16 -76 -16q-44 3 -90 22q-49 17 -90 17q-23 0 -41 -6q-43 -14 -68 -33v-152zM307 541l64 475l6 39h12 l6 -39l64 -475h-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc4;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM143 1638h191v201h-191v-201zM307 541l64 475l6 39h12l6 -39l64 -475h-152zM432 1638h191v201h-191v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc5;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;765&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 0h216l40 307h213l41 -307h215l-227 1505h-270zM231 1761q0 -62 45 -102.5t109 -40.5t108 40.5t44 102.5t-44 103t-108 41t-109 -41t-45 -103zM307 541l64 475l6 39h12l6 -39l64 -475h-152zM309 1761q0 29 23 50.5t53 21.5t53 -21.5t23 -50.5t-23 -50t-53 -21t-53 21 t-23 50z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc6;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1099&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 0h220l90 307h227v-307h506v227h-285v414h205v242h-205v395h285v227h-623zM393 541l150 514h10v-514h-160z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc7;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;708&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v207h-206v-207q0 -34 -9 -55q-18 -55 -75 -55q-27 0 -43 16q-32 37 -35 94v887q4 39 10 55q21 56 68 56q34 0 51 -17q33 -36 33 -94v-207h206v207q-3 95 -36 162 q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM268 -111v-141h64l-41 -133h104l45 133v141h-172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc8;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;628&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h506v227h-285v414h205v242h-205v395h285v227h-506v-1505zM111 1823l161 -185h160l-106 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xc9;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;628&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h506v227h-285v414h205v242h-205v395h285v227h-506v-1505zM236 1638h159l162 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xca;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;628&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h506v227h-285v414h205v242h-205v395h285v227h-506v-1505zM84 1638h188l62 72l63 -72h189l-142 185h-219z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xcb;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;628&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h506v227h-285v414h205v242h-205v395h285v227h-506v-1505zM94 1638h191v201h-191v-201zM383 1638h190v201h-190v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xcc;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;401&quot;</span> <span class="na">d=</span><span class="s">&quot;M-6 1823l162 -185h159l-106 185h-215zM98 0h221v1505h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xcd;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;401&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v1505h-221v-1505zM86 1638h160l162 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xce;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M-66 1638h189l61 72l64 -72h188l-141 185h-219zM74 0h221v1505h-221v-1505z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xcf;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;372&quot;</span> <span class="na">d=</span><span class="s">&quot;M-53 1638h190v201h-190v-201zM76 0h221v1505h-221v-1505zM236 1638h190v201h-190v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd0;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;761&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 655h62v-655h174q156 0 243.5 35.5t131.5 120.5q40 80 52.5 215t12.5 381q0 247 -12.5 382.5t-52.5 215.5q-44 85 -131 120t-244 35h-174v-622h-62v-228zM303 221v434h84v228h-84v401q63 0 94 -15t47 -65q18 -68 21 -160q2 -72 2 -290q0 -219 -2 -291q-3 -96 -21 -160 q-16 -52 -47 -67t-94 -15z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd1;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;808&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h203v854h12l18 -70l215 -784h197v1505h-203v-854h-12l-18 70l-215 784h-197v-1505zM207 1632q5 3 33 17q46 16 75 16q52 -3 93 -20q43 -19 88 -19q23 0 41 6q41 10 67 33v152q-5 -3 -33 -17q-46 -16 -75 -16q-44 3 -90 22q-49 17 -91 17q-23 0 -41 -6 q-42 -13 -67 -33v-152z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd2;&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM121 1823l162 -185h159l-106 185h-215zM289 309v887 q0 34 8 55q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd3;&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM285 1638h159l162 185h-215zM289 309v887q0 34 8 55 q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd4;&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM113 1638h188l61 72l64 -72h188l-141 185h-219zM289 309v887 q0 34 8 55q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd5;&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM164 1632q5 3 33 17q46 16 75 16q52 -3 93 -20 q43 -19 88 -19q23 0 41 6q41 10 67 33v152q-5 -3 -33 -17q-46 -16 -75 -16q-45 3 -91 22q-49 17 -90 17q-23 0 -41 -6q-42 -13 -67 -33v-152zM289 309v887q0 34 8 55q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94z &quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd6;&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -97 36 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q61 46 89 110q33 67 36 164v887q-3 95 -36 162q-29 67 -89 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887zM123 1638h190v201h-190v-201zM289 309v887q0 34 8 55 q17 56 65 56q29 0 46 -17q28 -35 28 -94v-887q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94zM412 1638h190v201h-190v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd8;&quot;</span> <span class="na">d=</span><span class="s">&quot;M59 -20h129l15 47q62 -43 159 -43q107 0 170 51q61 46 89 110q33 67 36 164v887q0 27 -6 57q-13 74 -39 123l45 150h-122l-15 -47q-65 43 -158 43q-103 0 -172 -52q-55 -42 -86 -112q-33 -67 -36 -162v-887q0 -19 4 -55q15 -83 34 -117zM289 309l147 488v-488 q0 -36 -8 -55q-14 -55 -66 -55q-27 0 -43 16q-30 35 -30 94zM289 727v469q0 34 8 55q17 56 65 56q44 0 62 -41q12 -38 12 -60z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xd9;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;749&quot;</span> <span class="na">d=</span><span class="s">&quot;M80 309q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v1196h-221v-1196q0 -34 -9 -55q-14 -55 -65 -55q-27 0 -43 16q-31 36 -31 94v1196h-221v-1196zM145 1823l162 -185h160l-107 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xda;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;749&quot;</span> <span class="na">d=</span><span class="s">&quot;M80 309q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v1196h-221v-1196q0 -34 -9 -55q-14 -55 -65 -55q-27 0 -43 16q-31 36 -31 94v1196h-221v-1196zM307 1638h160l162 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xdb;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;749&quot;</span> <span class="na">d=</span><span class="s">&quot;M80 309q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v1196h-221v-1196q0 -34 -9 -55q-14 -55 -65 -55q-27 0 -43 16q-31 36 -31 94v1196h-221v-1196zM125 1638h188l62 72l63 -72h189l-142 185h-219z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xdc;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;749&quot;</span> <span class="na">d=</span><span class="s">&quot;M80 309q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v1196h-221v-1196q0 -34 -9 -55q-14 -55 -65 -55q-27 0 -43 16q-31 36 -31 94v1196h-221v-1196zM135 1638h191v201h-191v-201zM424 1638h190v201h-190v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xdd;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;704&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 1505l226 -864v-641h221v641l225 864h-217l-111 -481l-6 -14h-4l-6 14l-111 481h-217zM254 1638h160l161 185h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xde;&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h221v360q161 0 266 99q123 116 123 354q0 240 -123 356q-100 95 -266 95h-2v241h-219v-1505zM303 586v452q99 0 135 -53q31 -46 31 -180q0 -131 -31 -172q-34 -47 -135 -47z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xdf;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;733&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 0h206v1235q0 44 19 73t55 29q42 0 64 -28t22 -72q0 -53 -25 -85t-61 -32v-141q71 0 96 -72q31 -88 31 -332q0 -230 -31 -315q-24 -67 -96 -67v-193q88 0 148 21.5t100 78.5q86 124 86 475q0 220 -41 338q-37 108 -111 150q88 66 88 174q0 124 -65 201q-71 84 -205 84 t-213 -86q-67 -73 -67 -201v-1235z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe0;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM102 1489l162 -184h160l-107 184h-215zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe1;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62zM264 1305h160l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe2;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM90 1305h189l61 71l63 -71h189l-141 184h-220zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe3;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM143 1305q6 3 17.5 8.5t15.5 7.5q46 16 76 16q51 -3 92 -20q43 -19 88 -19q20 0 41 7q44 11 68 32v152q-6 -3 -18 -8.5t-15 -7.5q-49 -17 -76 -17q-41 3 -90 23q-46 16 -90 16 q-23 0 -41 -6q-43 -14 -68 -33v-151zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe4;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM102 1305h191v200h-191v-200zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62zM391 1305h191v200h-191v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe5;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;681&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q60 0 109 39q35 28 57 67h14q0 -66 19 -90h202q-14 86 -14 195v688q0 109 -76 182q-75 72 -176 72q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5 t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM188 1421q0 -62 45 -102.5t109 -40.5t108 40.5t44 102.5t-44 103t-108 41t-109 -41t-45 -103zM252 291q0 84 35.5 151.5t107.5 98.5v-287q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43 q-10 29 -10 62zM266 1421q0 29 23 50.5t53 21.5t53 -21.5t23 -50.5t-23 -50t-53 -21t-53 21t-23 50z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe6;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;989&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 260q0 -154 64 -225q41 -51 102 -51q120 0 221 131q67 -131 226 -131q101 0 155 45q55 44 81.5 102t31.5 141v129h-193v-122q0 -37 -8 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-97 0 -162 -52q-67 52 -152 52 q-120 0 -198 -88q-80 -90 -80 -211v-47h207v53q0 21 4 53q11 59 55 59q37 0 51 -34q6 -20 6 -68v-123q-2 -5 -5 -9.5t-9 -9.5t-11.5 -8.5t-15.5 -9t-16.5 -9t-20 -10.5t-20.5 -11q-104 -55 -162 -127q-86 -107 -86 -277zM252 291q0 84 35.5 151.5t107.5 98.5v-287 q0 -29 -25 -48.5t-61 -19.5q-33 0 -47 43q-10 29 -10 62zM588 684v158q3 39 10 57q18 57 66 57q29 0 45 -16q28 -35 28 -98v-158h-149z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe7;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;645&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 315q0 -179 75 -260q65 -71 189 -71q136 0 198 67q68 74 68 254v109h-207v-156q0 -52 -12 -71t-47 -19q-26 0 -39.5 15.5t-16 32t-2.5 42.5v604q0 26 2.5 42.5t16 32t39.5 15.5q35 0 47 -19t12 -71v-135h207v88q0 180 -68 254q-62 68 -198 68q-123 0 -189 -72 q-75 -81 -75 -260v-490zM238 -111v-141h63l-41 -133h105l45 133v141h-172z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe8;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;659&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 279q3 -78 32 -148q66 -147 234 -147q101 0 155 45q55 44 81.5 102t31.5 141v129h-192v-122q0 -34 -9 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-105 -87 -114 -250v-563zM102 1489l162 -184h160 l-107 184h-215zM258 684v158q3 39 10 57q18 57 66 57q29 0 45 -16q29 -36 29 -98v-158h-150z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe9;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;659&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 279q3 -78 32 -148q66 -147 234 -147q101 0 155 45q55 44 81.5 102t31.5 141v129h-192v-122q0 -34 -9 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-105 -87 -114 -250v-563zM258 684v158 q3 39 10 57q18 57 66 57q29 0 45 -16q29 -36 29 -98v-158h-150zM264 1305h160l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xea;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;659&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 279q3 -78 32 -148q66 -147 234 -147q101 0 155 45q55 44 81.5 102t31.5 141v129h-192v-122q0 -34 -9 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-105 -87 -114 -250v-563zM80 1305h188l62 71 l63 -71h189l-142 184h-219zM258 684v158q3 39 10 57q18 57 66 57q29 0 45 -16q29 -36 29 -98v-158h-150z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xeb;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;659&quot;</span> <span class="na">d=</span><span class="s">&quot;M66 279q3 -78 32 -148q66 -147 234 -147q101 0 155 45q55 44 81.5 102t31.5 141v129h-192v-122q0 -34 -9 -58q-14 -55 -65 -55q-27 0 -43 16q-30 39 -33 97v243h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-105 -87 -114 -250v-563zM90 1305h191v200h-191 v-200zM258 684v158q3 39 10 57q18 57 66 57q29 0 45 -16q29 -36 29 -98v-158h-150zM379 1305h190v200h-190v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xec;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M-33 1489l162 -184h160l-107 184h-215zM82 0h207v1120h-207v-1120z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xed;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v1120h-207v-1120zM82 1305h160l161 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xee;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;370&quot;</span> <span class="na">d=</span><span class="s">&quot;M-66 1305h189l61 71l64 -71h188l-141 184h-219zM82 0h207v1120h-207v-1120z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xef;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;372&quot;</span> <span class="na">d=</span><span class="s">&quot;M-53 1305h190v200h-190v-200zM82 0h207v1120h-207v-1120zM236 1305h190v200h-190v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf0;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;673&quot;</span> <span class="na">d=</span><span class="s">&quot;M76 279q3 -76 33 -148q66 -147 231 -147q102 0 156 45q53 44 79 102t31 141v656q0 252 -125 446l101 88l-56 66l-94 -82l-18 24l-19 19q-3 3 -8 9t-8 9l-109 -100q2 -5 13 -16q7 -8 32 -50l-100 -88l55 -63l82 72q36 -81 51 -203q-91 78 -155 78q-113 0 -152 -123 q-20 -66 -20 -156v-579zM270 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q30 -37 27 -98v-563q3 -34 -6 -58q-14 -55 -66 -55q-27 0 -43 16q-30 38 -27 97z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf1;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 0h207v883q6 10 18 26q27 27 49 27q50 0 50 -49v-887h206v918q0 81 -37 145q-45 74 -118 74q-27 0 -54 -15q-37 -20 -90 -73q-22 -22 -24 -23v94h-207v-1120zM147 1305q6 3 18 8.5t15 7.5q46 16 76 16q51 -3 92 -20q43 -19 88 -19q20 0 41 7q44 11 68 32v152 q-6 -3 -18 -8.5t-15 -7.5q-49 -17 -76 -17q-41 3 -90 23q-46 16 -90 16q-23 0 -41 -6q-43 -14 -68 -33v-151z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf2;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM98 1489l162 -184h160l-107 184h-215zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q29 -36 26 -98 v-563q3 -34 -6 -58q-14 -55 -65 -55q-27 0 -43 16q-30 38 -27 97z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf3;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q29 -36 26 -98v-563q3 -34 -6 -58q-14 -55 -65 -55 q-27 0 -43 16q-30 38 -27 97zM260 1305h160l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf4;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM78 1305h188l62 71l63 -71h189l-142 184h-219zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16 q29 -36 26 -98v-563q3 -34 -6 -58q-14 -55 -65 -55q-27 0 -43 16q-30 38 -27 97z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf5;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM131 1305q6 3 17.5 8.5t15.5 7.5q46 16 76 16q51 -3 92 -20q43 -19 88 -19q20 0 41 7q42 10 67 32v152 l-32 -16q-49 -17 -76 -17q-41 3 -90 23q-46 16 -90 16q-23 0 -41 -6q-43 -14 -68 -33v-151zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q29 -36 26 -98v-563q3 -34 -6 -58q-14 -55 -65 -55q-27 0 -43 16q-30 38 -27 97z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf6;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 71 -33 143q-67 146 -233 146q-103 0 -154 -45q-102 -86 -111 -250v-563zM90 1305h191v200h-191v-200zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q29 -36 26 -98v-563 q3 -34 -6 -58q-14 -55 -65 -55q-27 0 -43 16q-30 38 -27 97zM379 1305h190v200h-190v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf8;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;657&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q0 -37 11 -86q19 -92 82 -150l-31 -121h80l20 78q50 -16 103 -16q101 0 155 45q54 44 80 102.5t31 140.5v576q-3 44 -12 84q-29 96 -82 145l30 121h-75l-21 -80q-59 19 -106 19q-103 0 -154 -45q-102 -86 -111 -250v-563zM258 436v406q-3 33 6 57q15 57 64 57 q40 0 55 -34zM274 197l125 485v-403q3 -34 -6 -58q-14 -55 -65 -55q-38 0 -54 31z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xf9;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 203q0 -83 37 -144q44 -75 118 -75q27 0 56 16q35 19 90 74q18 18 22 20v-94h207v1120h-207v-882q-13 -22 -18 -27q-27 -27 -49 -27q-23 0 -36 10t-13 39v887h-207v-917zM113 1489l161 -184h160l-106 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfa;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 203q0 -83 37 -144q44 -75 118 -75q27 0 56 16q35 19 90 74q18 18 22 20v-94h207v1120h-207v-882q-13 -22 -18 -27q-27 -27 -49 -27q-23 0 -36 10t-13 39v887h-207v-917zM274 1305h160l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfb;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 203q0 -83 37 -144q44 -75 118 -75q27 0 56 16q35 19 90 74q18 18 22 20v-94h207v1120h-207v-882q-13 -22 -18 -27q-27 -27 -49 -27q-23 0 -36 10t-13 39v887h-207v-917zM94 1305h189l61 71l64 -71h188l-141 184h-219z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfc;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;690&quot;</span> <span class="na">d=</span><span class="s">&quot;M78 203q0 -83 37 -144q44 -75 118 -75q27 0 56 16q35 19 90 74q18 18 22 20v-94h207v1120h-207v-882q-13 -22 -18 -27q-27 -27 -49 -27q-23 0 -36 10t-13 39v887h-207v-917zM106 1305h191v200h-191v-200zM395 1305h191v200h-191v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="LC183" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfd;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;634&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1120l190 -1153q0 -34 -8 -61q-18 -65 -68 -103q-21 -16 -55.5 -19t-38.5 1q-10 0 -12 2v-184q50 -4 67 -4h25q114 0 197 100q74 89 90 217l198 1204h-202l-82 -688l-4 -57h-9l-4 57l-82 688h-202zM231 1305h160l162 184h-215z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="LC184" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfe;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;686&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 -385h207v459q34 -30 53 -45q61 -45 111 -45q75 0 122 75q37 61 37 144v715q0 81 -37 145q-49 74 -122 74q-31 0 -58 -15q-50 -22 -106 -75v458h-207v-1890zM289 246v628q0 29 18.5 48.5t42.5 19.5q23 0 39.5 -19.5t16.5 -48.5v-628q0 -29 -16.5 -48.5t-39.5 -19.5 t-42 21.5t-19 46.5z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="LC185" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xff;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;634&quot;</span> <span class="na">d=</span><span class="s">&quot;M25 1120l190 -1153q0 -34 -8 -61q-18 -65 -68 -103q-21 -16 -55.5 -19t-38.5 1q-10 0 -12 2v-184q50 -4 67 -4h25q114 0 197 100q74 89 90 217l198 1204h-202l-82 -688l-4 -57h-9l-4 57l-82 688h-202zM78 1305h190v200h-190v-200zM367 1305h190v200h-190v-200z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="LC186" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x152;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;983&quot;</span> <span class="na">d=</span><span class="s">&quot;M68 309q3 -91 36 -155q30 -66 86 -105q69 -49 172 -49h580v227h-285v414h205v242h-205v395h285v227h-580q-106 0 -172 -47q-54 -38 -86 -108q-33 -64 -36 -154v-887zM289 309v887q0 34 8 55q17 56 65 56q42 0 60 -37q14 -28 14 -60v-901q0 -36 -8 -55q-14 -55 -66 -55 q-27 0 -43 16q-30 35 -30 94z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="LC187" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x153;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;995&quot;</span> <span class="na">d=</span><span class="s">&quot;M63 279q3 -76 33 -148q66 -147 232 -147q103 0 170 57q64 -57 170 -57q101 0 155 45q55 44 81.5 102t31.5 141v129h-193v-122q0 -37 -8 -58q-14 -55 -65 -55q-45 0 -64 47q-12 30 -12 59v250h342v326q-3 71 -33 143q-67 146 -233 146q-103 0 -170 -60q-67 60 -172 60 q-103 0 -154 -45q-102 -86 -111 -250v-563zM258 279v563q-3 33 6 57q15 57 64 57q29 0 45 -16q29 -36 26 -98v-563q3 -34 -6 -58q-14 -55 -65 -55q-27 0 -43 16q-30 38 -27 97zM594 684v164q0 31 12 61q19 47 64 47q29 0 45 -16q28 -35 28 -98v-158h-149z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="LC188" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x178;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;704&quot;</span> <span class="na">d=</span><span class="s">&quot;M16 1505l226 -864v-641h221v641l225 864h-217l-111 -481l-6 -14h-4l-6 14l-111 481h-217zM113 1638h190v201h-190v-201zM401 1638h191v201h-191v-201z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="LC189" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2c6;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1021&quot;</span> <span class="na">d=</span><span class="s">&quot;M260 1305h189l61 71l63 -71h189l-141 184h-220z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="LC190" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2dc;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1024&quot;</span> <span class="na">d=</span><span class="s">&quot;M313 1305q6 3 17.5 8.5t15.5 7.5q46 16 76 16q51 -3 92 -20q43 -19 88 -19q20 0 41 7q44 11 68 32v152q-6 -3 -17.5 -8.5t-15.5 -7.5q-49 -17 -76 -17q-41 3 -90 23q-46 16 -90 16q-23 0 -41 -6q-43 -14 -68 -33v-151z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="LC191" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2000;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;952&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="LC192" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2001;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1905&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="LC193" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2002;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;952&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="LC194" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2003;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1905&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="LC195" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2004;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;635&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="LC196" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2005;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;476&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="LC197" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2006;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;317&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="LC198" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2007;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;317&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="LC199" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2008;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;238&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="LC200" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2009;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;381&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="LC201" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x200a;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;105&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="LC202" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2010;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;444&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 455h297v194h-297v-194z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="LC203" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2011;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;444&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 455h297v194h-297v-194z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="LC204" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2012;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;444&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 455h297v194h-297v-194z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="LC205" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2013;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;806&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 649h659v195h-659v-195z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="LC206" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2014;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;972&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 649h825v195h-825v-195z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="LC207" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2018;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;309&quot;</span> <span class="na">d=</span><span class="s">&quot;M49 1012h215v227h-71l71 266h-102l-113 -266v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="LC208" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2019;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;309&quot;</span> <span class="na">d=</span><span class="s">&quot;M45 1012h102l113 266v227h-215v-227h72z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="LC209" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x201a;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;309&quot;</span> <span class="na">d=</span><span class="s">&quot;M45 0h72l-72 -266h102l113 266v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="LC210" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x201c;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;624&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 1012h215v227h-71l71 266h-102l-113 -266v-227zM356 1012h215v227h-71l71 266h-102l-113 -266v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="LC211" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x201d;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;624&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 1012h103l112 266v227h-215v-227h72zM356 1012h103l112 266v227h-215v-227h72z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="LC212" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x201e;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;624&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 0h72l-72 -266h103l112 266v227h-215v-227zM356 0h72l-72 -266h103l112 266v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="LC213" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2022;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;663&quot;</span> <span class="na">d=</span><span class="s">&quot;M82 817q0 -104 74 -178t178 -74q102 0 176 74q72 72 72 178q0 104 -72 176t-176 72q-106 0 -178 -72q-74 -74 -74 -176z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="LC214" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2026;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;964&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 0h215v227h-215v-227zM375 0h215v227h-215v-227zM696 0h215v227h-215v-227z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="LC215" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x202f;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;381&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L216" class="blob-num js-line-number" data-line-number="216"></td>
+        <td id="LC216" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x205f;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;476&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L217" class="blob-num js-line-number" data-line-number="217"></td>
+        <td id="LC217" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x20ac;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;813&quot;</span> <span class="na">d=</span><span class="s">&quot;M53 547h107v-238q3 -95 37 -164q30 -67 86 -110q63 -51 172 -51q107 0 170 51q59 45 88 110q34 69 37 164v84h-207v-84q0 -36 -8 -55q-18 -55 -76 -55q-27 0 -43 16q-32 37 -35 94v238h233v137h-233v137h233v137h-233v238q4 39 10 55q21 56 68 56q34 0 51 -17 q33 -36 33 -94v-84h207v84q-3 93 -37 162q-30 68 -88 112q-69 52 -170 52q-103 0 -172 -52q-55 -42 -86 -112q-34 -69 -37 -162v-238h-107v-137h107v-137h-107v-137z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L218" class="blob-num js-line-number" data-line-number="218"></td>
+        <td id="LC218" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#x2122;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;937&quot;</span> <span class="na">d=</span><span class="s">&quot;M74 1401h104v-580h113v580h104v104h-321v-104zM440 821h103v449l80 -449h51l78 449v-449h104v684h-137l-68 -319h-6l-67 319h-138v-684z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L219" class="blob-num js-line-number" data-line-number="219"></td>
+        <td id="LC219" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xe000;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;1116&quot;</span> <span class="na">d=</span><span class="s">&quot;M0 0v1116h1116v-1116h-1116z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L220" class="blob-num js-line-number" data-line-number="220"></td>
+        <td id="LC220" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfb01;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;772&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 934h105v-934h207v934h151v-934h207v1120h-358v29v51q0 35 8 62q18 71 76 71q28 0 82 -6q20 -4 28 -6v184q-7 1 -22.5 3t-22.5 3q-40 9 -102 9q-167 0 -223 -140q-31 -73 -31 -229v-31h-105v-186z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L221" class="blob-num js-line-number" data-line-number="221"></td>
+        <td id="LC221" class="blob-code js-file-line"><span class="nt">&lt;glyph</span> <span class="na">unicode=</span><span class="s">&quot;&amp;#xfb02;&quot;</span> <span class="na">horiz-adv-x=</span><span class="s">&quot;772&quot;</span> <span class="na">d=</span><span class="s">&quot;M20 934h105v-934h207v934h104v186h-104v29v51q0 35 8 62q18 71 76 71q31 0 67 -4v-1329h207v1505h-164q-7 1 -22.5 3t-22.5 3q-40 9 -102 9q-167 0 -223 -140q-31 -73 -31 -229v-31h-105v-186z&quot;</span> <span class="nt">/&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L222" class="blob-num js-line-number" data-line-number="222"></td>
+        <td id="LC222" class="blob-code js-file-line"><span class="nt">&lt;/font&gt;</span></td>
+      </tr>
+      <tr>
+        <td id="L223" class="blob-num js-line-number" data-line-number="223"></td>
+        <td id="LC223" class="blob-code js-file-line"><span class="nt">&lt;/defs&gt;&lt;/svg&gt;</span> </td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.08206s from github-fe138-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents js-suggester-field" placeholder=""></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-7697aacc55f84bd4542cfa34f8052d9a7e3d1378.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-86730ac1df5543b876a014a6824213397ee7e926.js" type="text/javascript"></script>
+      
+      
+        <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </body>
+</html>
+

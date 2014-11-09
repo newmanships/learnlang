@@ -1,3 +1,39 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.correct-or-not {
+  text-align:center;
+  font-size:50px;
+  background-color: gray;
+  margin: 0 auto;
+  width:25%;
+}
+
+.answer-text {
+  font-weight: bold;
+  font-size:35px;
+}
+
+.elegant-aero .continue{
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+    font-size:18px;
+    margin-right:10px;
+    display:none;
+    
+}
+.elegant-aero .button:hover{
+    background: #3EB1DD;
+}
+
+#lesson-name {
+  font-size:60px;
+}
