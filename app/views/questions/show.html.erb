@@ -20,7 +20,11 @@
             $('.userAnswer').hide();
             $('.continue').css('display', 'inline-block');
             $('.button').css('display', 'none');
-
+            var progress = json['result'][3];
+            var result = progress + '%';
+            console.log(result);
+            $('.progress-bar').css('width', result);
+          
           });
           return false; // prevents normal behaviour
             }
@@ -32,7 +36,12 @@
 </script>
 <div id="notice"><%= notice %></div>
 <h1 id="lesson-name"><%= @lessonId.title %></h1>
-<div> <%= @lessonId.body %></div>
+<div class="col-md-6"> Practicing: <%= @lessonId.body %></div>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+    <span class="sr-only">50% Complete</span>
+  </div>
+</div>
 
     
     <h2 class="correct-or-not"></h2>

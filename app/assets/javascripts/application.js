@@ -13,41 +13,35 @@
 //= require jquery
 //= require jquery_ujs
 //= require twitter/bootstrap
-//= require turbolinks
+
 //= require_tree .
 
 // For end of lesson pop up
-jQuery(document).ready(function($) {
+$(document).ready(function() {
   
-  // For 'take quiz' box at bottom of lesson
-var footer = $('#footer'),
-extra = 10; // In case you want to trigger it a bit sooner than exactly at the bottom.
+    // For 'take quiz' box at bottom of lesson
+  var footer = $('#quiz-div'),
+  extra = 30; // In case you want to trigger it a bit sooner than exactly at the bottom.
 
-footer.css({ opacity: '0', display: 'block' });
+  footer.css({ opacity: '0', display: 'block' });
+  $(window).scroll(function() {
 
-$(window).scroll(function() {
-       
-   var scrolledLength = ( $(window).height() + extra ) + $(window).scrollTop(),
-       documentHeight = $(document).height();
+     var scrolledLength = ( $(window).height() + extra ) + $(window).scrollTop(),
+         documentHeight = $(document).height();
+  //     console.log( 'Scroll length: ' + scrolledLength + ' Document height: ' + documentHeight )
 
-    
-//     console.log( 'Scroll length: ' + scrolledLength + ' Document height: ' + documentHeight )
-       
-        
-   if( scrolledLength >= documentHeight ) {
-       
-       footer
-          .addClass('bottom')
-          .stop().animate({ bottom: '0', opacity: '1' }, 300);
+     if( scrolledLength >= documentHeight ) {
+         footer
+            .addClass('bottom')
+            .stop().animate({ bottom: '0', opacity: '1' }, 300);
 
-   }
-   else if ( scrolledLength <= documentHeight && footer.hasClass('bottom') ) {           
-        footer
-           .removeClass('bottom')
-           .stop().animate({ bottom: '-100', opacity: '0' }, 300);
+     }
+     else if ( scrolledLength <= documentHeight && footer.hasClass('bottom') ) { 
+          footer
+             .removeClass('bottom')
+             .stop().animate({ bottom: '-100', opacity: '0' }, 300);
 
-   } 
-});
+     } 
+  });
 
 });
-

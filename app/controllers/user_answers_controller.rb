@@ -69,19 +69,28 @@ class UserAnswersController < ApplicationController
   end
   
   def checkAnswer
+    @question = Question.where(id: params[:user_answer]['question_id'])
+    @quiz_id = @question.first.quiz_id
+    @questions = Question.where(quiz_id: @quiz_id)
+    @numquestions = @questions.count
+    @quiz = Quiz.where(id: @quiz_id)
+    @total = @quiz.first.total_score
+    @question_amount = @total / @numquestions
+    progressbar = @question_amount * @question.first.id
     a = Array.new
         # Do something with input parameter and respond as JSON with the output
     userAnswer = params[:user_answer]['userAnswerText']
     @correct = CorrectAnswer.where(question_id: params[:user_answer]['question_id'])
     if (userAnswer == @correct[0]['correctAnswerText'])
       result = 'correct'
-      a.push(result)
+      a.push(result)      
     else
       result = 'wrong'
       a.push(result)
     end
     a.push(@correct[0]['correctAnswerText'])
     a.push(userAnswer)
+    a.push(progressbar)
         respond_to do |format|
               format.json {render :json => {:result => a}}
         end

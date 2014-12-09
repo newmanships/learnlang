@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
 
-<p>
+<h1>
   <strong>Alphabet:</strong>
-  <%= @alphabet.title %>
-</p>
+  <%= link_to @alphabet.title, @alphabet.course %>
+</h1>
 
 <div class="row">
   <% i = 0 %>

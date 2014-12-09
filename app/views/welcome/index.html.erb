@@ -1,19 +1,17 @@
 
 <div class="borders">
 <% @courses.each do |course| %>
-  
-    <div class="course "><h1>Course: <%=course.title %></h1>
-      <span>Description: <%= course.body %></span>
-    </div>
+    
     <div class="course-link cf">  
       <%= link_to 'Show', course %>
     </div>
+  <div class="course "><h1>Learn: <%=link_to course.title, course %></h1>
+      <span>Description: <%= course.body %></span>
+    </div>
+    
 
 
 <% end %>
 </div>
   
-  <br/>
-<p><a href="/admin">Admin</a></p>
-<p><a href="/users/sign_up">Sign Up </a></p>
-</div>
+

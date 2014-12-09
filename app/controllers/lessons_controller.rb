@@ -15,8 +15,12 @@ class LessonsController < ApplicationController
     @course = @lesson.course
     lesson = Lesson.find(params[:id])
     course = Course.find(lesson.course_id)
-    @alphabet = course.alphabet
-    @signs = @alphabet.signs.all.reverse
+    if defined?(course.alphabet)
+      @alphabet = course.alphabet
+    end
+    if defined?(@alphabet.signs)
+      @signs = @alphabet.signs.all.reverse
+    end
     if defined? @lesson.quiz.questions.first
       @quiz = @lesson.quiz.questions.first
     end
