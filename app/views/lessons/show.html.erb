@@ -12,12 +12,12 @@
 <% @signs.each do |sign| %>
 
 
-  <div class="col-lg-4">
+  <div class="col-md-2">
     <h3> <%= sign.character %>  </h3>
     <span> <%= sign.explanation %></span>
   </div>
   <% i = i + 1 %>
-    <% if (i % 3==0) and i != 0 %>
+    <% if (i % 6==0) and i != 0 %>
   </div>  <div class="row">
   <% end %>
   
